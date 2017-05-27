@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="@color/tab_text"
+                    android:text="公司名称"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_company_name"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/tab_text"
+                    android:background="@drawable/edt_content"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="@color/tab_text"
+                    android:text="Emall    "
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_mail"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/tab_text"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="电话号码"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_tel"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/tab_text"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="验 证 码 "
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_checkCode"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:ems="6"
+                    android:inputType="number"
+                    android:textColor="@color/tab_text"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btn_checkcode"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edt_content"
+                    android:text="获取验证码"
+                    android:textColor="@color/defult_text"
+                    android:textSize="@dimen/h5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="@color/tab_text"
+                    android:text="密       码"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:background="@drawable/edt_content"
+                    android:textColor="@color/tab_text"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="密码确认"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_password_repeat"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:background="@drawable/edt_content"
+                    android:textColor="@color/tab_text"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="@color/tab_text"
+                    android:text="企业类型"
+                    android:textSize="@dimen/h5" />
+
+                <com.jcl.android.view.WhSpinner
+                    android:id="@+id/user_type"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text=" "
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="邀请码"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_invitation_code"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:hint="如有朋友邀请 请务必输入邀请码；如无,请输入“000000”免费试用"
+                    android:textSize="@dimen/h5"
+                    android:background="@drawable/edt_content"
+                    android:textColor="@color/tab_text"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/btn_register"
+                    android:text="注  册"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">誉畅配货</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputHint">请输入文本</string>
+    <string name="startSynthesize">开始合成</string>
+
+    <string-array name="huowuleixing">
+        <item>普货</item>
+        <item>设备</item>
+        <item>矿产</item>
+        <item>建材</item>
+        <item>食品</item>
+        <item>蔬菜</item>
+        <item>生鲜</item>
+        <item>药品</item>
+        <item>一般化工品</item>
+        <item>木材</item>
+        <item>家畜</item>
+        <item>纺织品</item>
+        <item>日用品</item>
+        <item>电子电器</item>
+        <item>农副产品</item>
+        <item>危险品</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="fabuleibie">
+        <item>需求</item>
+        <item>服务</item>
+    </string-array>
+    <string-array name="yewuleibie">
+        <item>车辆买卖</item>
+        <item>保险</item>
+        <item>报关</item>
+        <item>报检</item>
+    </string-array>
+    
+    <string-array name="dungongjin">
+        <item>吨</item>
+        <item>公斤</item>
+    </string-array>
+
+    <string-array name="carlength">
+        <item>20GP(5.9mx23.5mx2.39m)</item>
+        <item>40GP(12mx2.35mx2.39m)</item>
+        <item>40HQ(12mx2.35mx2.69m)</item>
+        <item>45GP(13.55mX2.35mX2.69m)</item>
+        <item>40RF(11.59mX2.27mX2.53m)</item>
+    </string-array>
+    
+    <string-array name="jinjichengdu">
+        <item>实货</item>
+        <item>预约</item>
+        <item>急货</item>
+        <!-- <item>愿加价</item> -->
+    </string-array>
+    
+    <string-array name="jinjichengdu2">
+        <item>实时</item>
+        <item>加急</item>
+    </string-array>
+    
+    <string-array name="othercarlength">
+        <item>2T(4.2mx1.7mx1.7m)</item>
+        <item>2T(4.35mx2.0mx2.0m)</item>
+        <item>3T(5.2mx2.1mx2.1m)</item> 
+        <item>3.5T(6.2mX2.2mX2.2m)</item>
+        <item>5T(7.2mX2.3mX2.3m)</item>
+        <item>8T(8.2mX2.3mX2.3m)</item>
+        <item>10T(9.2mX2.3mX2.3m)</item>
+    </string-array>
+    <string name="title_activity_find_strorage">FindStrorageActivity</string>
+    
+    <string-array name="chechang">
+        <item>3.8米</item>
+        <item>4.2米</item>
+        <item>5.2米</item>
+        <item>5.8米</item>
+        <item>6.2米</item>
+        <item>6.5米</item>
+        <item>6.8米</item>
+        <item>7.6米</item>
+        <item>8.6米</item>
+        <item>9.6米</item>
+        <item>12米</item>
+        <item>13米</item>
+        <item>13.7米</item>
+        <item>15米</item>
+        <item>16.5米</item>
+        <item>17.5米</item>
+        <item>18.5米</item>
+        <item>22米</item>
+        <item>24米</item>
+        <item>不限</item>
+    </string-array>
+    
+    <string-array name="chexing">
+        <item>集装箱车</item>
+        <item>冷藏车</item>
+        <item>厢式货车</item>
+        <item>保温车</item>
+        <item>平板车</item>
+        <item>中栏车</item>
+        <item>高低板车</item>
+        <item>高栏车</item>
+        <item>敞篷车</item>
+        <item>低栏车</item>
+        <item>罐式车</item>
+        <item>自卸货车</item>
+    </string-array>
+    
+    <string-array name="waixing">
+        <item>厢式</item>
+        <item>敞篷</item>
+        <item>半挂</item>
+        <item>全挂</item>
+        <item>加长挂</item>
+        <item>平板车</item>
+        <item>低栏</item>
+        <item>中栏</item>
+        <item>高栏</item>
+        <item>单桥</item>
+        <item>三桥</item>
+        <item>四桥</item>
+        <item>前四后八</item>
+        <item>后八轮</item>
+    </string-array>
+    
+    <string-array name="juli">
+        <item>长途</item>
+        <item>短途</item>
+        <item>长/短途均可</item>
+    </string-array>
+    
+    <string-array name="fukuanfang">
+        <item>发布人付</item>
+        <item>发货人付</item>
+        <item>收货人付</item>
+    </string-array>
+    
+    <string-array name="pingtaixuanze">
+        <item>整车配货</item>
+        <item>零担配货</item>
+        <item>零担/整车配货</item>
+        <item>集装箱双背</item>
+    </string-array>
+    
+    
+    <string-array name="cartype">
+        <item>顺风车</item>
+        <item>回城车</item>
+        <item>本地车</item>
+    </string-array>
+    
+    <string-array name="kuaixun">
+        <item>货源</item>
+        <item>车源</item>
+    </string-array>
+
+</resources>

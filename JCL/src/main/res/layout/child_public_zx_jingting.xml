@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|right"
+    android:paddingTop="5dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="经停"
+        android:textColor="@color/tab_text"
+        android:textSize="@dimen/h5" />
+
+    <EditText
+        android:id="@+id/et_jingting"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bg_public_check_nomal"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:hint="每个文本框填一个城市"
+        android:textColor="@color/tab_text"
+        android:textSize="@dimen/h5" />
+
+    <ImageView
+        android:id="@+id/iv_add_jingting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:visibility="invisible"
+        android:src="@drawable/icon_public_zx_add_whit" />
+
+</LinearLayout>

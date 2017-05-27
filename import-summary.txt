@@ -1,0 +1,132 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\JCL.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ic_launcher-web.png
+* jc.keystore
+* proguard-project.txt
+* proguard.cfg
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* readme.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => JCL\src\main\AndroidManifest.xml
+* assets\ => JCL\src\main\assets\
+* libs\alipaysdk.jar => JCL\libs\alipaysdk.jar
+* libs\alipaysecsdk.jar => JCL\libs\alipaysecsdk.jar
+* libs\alipayutdid.jar => JCL\libs\alipayutdid.jar
+* libs\armeabi\libbd_etts.so => JCL\src\main\jniLibs\armeabi\libbd_etts.so
+* libs\armeabi\libbds.so => JCL\src\main\jniLibs\armeabi\libbds.so
+* libs\armeabi\libBDSpeechDecoder_V1.so => JCL\src\main\jniLibs\armeabi\libBDSpeechDecoder_V1.so
+* libs\armeabi\libgnustl_shared.so => JCL\src\main\jniLibs\armeabi\libgnustl_shared.so
+* libs\armeabi\liblocSDK6a.so => JCL\src\main\jniLibs\armeabi\liblocSDK6a.so
+* libs\baidumapapi_base_v4_1_1.jar => JCL\libs\baidumapapi_base_v4_1_1.jar
+* libs\baidumapapi_cloud_v4_1_1.jar => JCL\libs\baidumapapi_cloud_v4_1_1.jar
+* libs\baidumapapi_map_v4_1_1.jar => JCL\libs\baidumapapi_map_v4_1_1.jar
+* libs\baidumapapi_radar_v4_1_1.jar => JCL\libs\baidumapapi_radar_v4_1_1.jar
+* libs\baidumapapi_search_v4_1_1.jar => JCL\libs\baidumapapi_search_v4_1_1.jar
+* libs\baidumapapi_util_v4_1_1.jar => JCL\libs\baidumapapi_util_v4_1_1.jar
+* libs\com.baidu.speechsynthesizer_1.1.1.jar => JCL\libs\com.baidu.speechsynthesizer_1.1.1.jar
+* libs\commons-lang-2.5.jar => JCL\libs\commons-lang-2.5.jar
+* libs\galaxy_lite.jar => JCL\libs\galaxy_lite.jar
+* libs\GetuiSDK2.9.5.0.jar => JCL\libs\GetuiSDK2.9.5.0.jar
+* libs\httpmime-4.1.3.jar => JCL\libs\httpmime-4.1.3.jar
+* libs\json_simple-1.1.jar => JCL\libs\json_simple-1.1.jar
+* libs\locSDK_6.13.jar => JCL\libs\locSDK_6.13.jar
+* libs\pushservice-5.5.0.50.jar => JCL\libs\pushservice-5.5.0.50.jar
+* libs\SocialSDK_email.jar => JCL\libs\SocialSDK_email.jar
+* libs\SocialSDK_QQZone_1.jar => JCL\libs\SocialSDK_QQZone_1.jar
+* libs\SocialSDK_QQZone_2.jar => JCL\libs\SocialSDK_QQZone_2.jar
+* libs\SocialSDK_QQZone_3.jar => JCL\libs\SocialSDK_QQZone_3.jar
+* libs\SocialSDK_Sina.jar => JCL\libs\SocialSDK_Sina.jar
+* libs\SocialSDK_sms.jar => JCL\libs\SocialSDK_sms.jar
+* libs\SocialSDK_WeiXin_1.jar => JCL\libs\SocialSDK_WeiXin_1.jar
+* libs\SocialSDK_WeiXin_2.jar => JCL\libs\SocialSDK_WeiXin_2.jar
+* libs\umeng_social_sdk.jar => JCL\libs\umeng_social_sdk.jar
+* libs\universal-image-loader-1.9.3.jar => JCL\libs\universal-image-loader-1.9.3.jar
+* libs\UPPayAssistEx.jar => JCL\libs\UPPayAssistEx.jar
+* libs\volley.jar => JCL\libs\volley.jar
+* libs\zxing.jar => JCL\libs\zxing.jar
+* lint.xml => JCL\lint.xml
+* res\ => JCL\src\main\res\
+* src\ => JCL\src\main\java\
+* left.PNG => left.png
+* right.PNG => right.png
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

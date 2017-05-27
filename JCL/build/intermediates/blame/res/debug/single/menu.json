@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\menu\\find_strorage.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\menu\\find_strorage.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\menu\\home.xml"
+    }
+]

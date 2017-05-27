@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="青岛大地有限公司"
+            android:textSize="@dimen/h4" />
+
+	    <TextView
+	        android:id="@+id/tv_time"
+	        android:layout_marginRight="10dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/color666"
+	        android:text="2014-05-09"
+	        android:textSize="@dimen/h6" />
+        
+    </LinearLayout>
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ccc" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+	        android:layout_marginRight="10dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/icon_find_detail_maoyileixing" />
+        <TextView
+            android:id="@+id/tv_ywtype"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/navigation"
+            android:text="山东省青岛市市北区山东路118号"
+            android:textSize="@dimen/h5" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_find_detail_maoyileixing"
+        android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/navigation"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="王师傅"
+            android:textSize="@dimen/h5" />
+        
+    </LinearLayout>
+
+
+   <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        
+        <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:gravity="center"
+            android:text="修改"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5" />
+
+       
+    </LinearLayout>
+
+</LinearLayout>

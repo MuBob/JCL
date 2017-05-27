@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+    
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:right_visible="false"
+        navigation:tv_title="" />
+
+    <WebView
+        android:id="@+id/wv_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="red">#ff0000</color>
+    <color name="hui">#ccc</color>
+    <color name="black">#000000</color>
+    <color name="navigation">#1284B0</color>
+    <color name="mylocation">#ACD344</color>
+    
+    <color name="view_bg">#fff3f3f3</color>
+    <color name="tab_text">#5e5e5e</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="car_num">#FD692D</color>
+    
+    <color name="must">#FE1E1E</color>
+    <color name="defult_text">#999999</color>
+    <color name="color666">#666666</color>
+    
+    <color name="register_text">#F55834</color>
+    <!-- 主绿色 -->
+    <color name="main_green">#8ec801</color>
+    <color name="gray">#c0c0c0</color>
+    
+    <color name="main_bg">#f7f7f7</color>
+    <color name="login_btn">#ff9d02</color>
+    
+    <color name="orange">#ff7f00</color>
+    
+    <color name="province_line_border">#C7C7C7</color>
+    
+    <!-- SwipeRefreshLayout刷新圆圈背景色 -->
+    <color name="back_swipe_day">#8ec801</color>
+    
+    <!-- SwipeRefreshlayout-Schem颜色 -->
+    <color name="schem_color1">#ffffff</color>
+    <color name="schem_color2">#ffffff</color>
+    <color name="schem_color3">#ffffff</color>
+    <color name="schem_color4">#ffffff</color>
+    <color name="home_greentext">#0EB28F</color>
+    
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_vertical">
+        
+        <EditText
+                    android:id="@+id/et_keyword"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_public_check_nomal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+        
+         <Button
+                    android:id="@+id/btn_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_register"
+                    android:text="搜 索"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white" />
+         
+         <Button
+                    android:id="@+id/btn_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_login_selector"
+                    android:text="只看今天"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white" />
+        
+        
+    </LinearLayout>
+    
+     <com.jcl.android.base.BaseSwipeRefreshLayout
+        android:id="@+id/sr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/main_bg"
+        android:fadingEdge="none" >
+    
+
+        <ListView
+            android:id="@+id/lv_find_by_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/transparent"
+            android:dividerHeight="8dp" />
+     </com.jcl.android.base.BaseSwipeRefreshLayout>
+
+</LinearLayout>

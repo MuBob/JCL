@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:btn_rightText="添加货物"
+        navigation:tv_title="货物管理" />
+    <RadioGroup 
+        android:id="@+id/rg_tab"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton 
+            android:id="@+id/rb_unread"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:background="@drawable/message_tab_selector"
+            android:text="未  读"
+            android:textColor="@color/navigation"
+            android:layout_weight="1"
+            android:checked="true"/>
+        <RadioButton 
+            android:id="@+id/rb_isread"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+			android:background="@drawable/message_tab_selector"
+			android:textColor="@color/navigation"
+            android:text="已  读"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+    
+    
+    <com.jcl.android.base.BaseSwipeRefreshLayout
+        android:id="@+id/sr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/main_bg"
+        android:fadingEdge="none" >
+
+       <ListView 
+        android:id="@+id/lv_goods"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:divider="@color/transparent"
+        android:dividerHeight="8dp"
+        android:paddingTop="10dp"
+        android:clipToPadding="false"
+        android:layout_weight="1"/>
+    </com.jcl.android.base.BaseSwipeRefreshLayout>
+    
+    <LinearLayout 
+        android:id="@+id/no_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:visibility="gone"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/img_prompt"
+	        />
+	    <TextView 
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:textColor="#ccc"
+	        android:textSize="@dimen/h4"
+	        android:text="你还没有添加货物哦!"/>
+	    <Button
+	         android:id="@+id/add_goods"
+	         android:layout_marginTop="10dp"
+	         android:padding="10dp"
+	         android:layout_width="160dp"
+	         android:layout_height="45dp"
+	         android:gravity="center"
+	         android:background="@drawable/btn_register"
+	         android:text="添加货物"
+	         android:textColor="@color/white" />
+
+</LinearLayout>
+
+</LinearLayout>

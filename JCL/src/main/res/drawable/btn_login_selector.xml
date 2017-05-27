@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item android:state_pressed="true"><shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/gray" />
+             
+            <corners android:radius="3dp" />
+            <padding android:bottom="5dip" android:left="5dip" android:right="5dip" android:top="5dip" />
+        </shape></item>
+    <item><shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/login_btn" />
+ 
+            <corners android:radius="3dp" />
+            <padding android:bottom="3dip" android:left="3dip" android:right="3dip" android:top="3dip" />
+        </shape></item>
+ 
+</selector>

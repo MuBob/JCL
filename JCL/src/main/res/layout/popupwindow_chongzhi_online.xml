@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="充值金额"
+        android:textColor="@color/tab_text"
+        android:textSize="@dimen/h4" />
+
+    <EditText
+        android:id="@+id/et_pay_num"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edt_content"
+        android:hint="请输入金额"
+        android:inputType="numberDecimal"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/et_pay_num"
+        android:textSize="@dimen/h5"
+        android:textColor="@color/tab_text"
+        android:text="元" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pay_num"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="@dimen/h5"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edt_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/h5"
+            android:text="取消"
+            android:textColor="@color/tab_text" />
+    </LinearLayout>
+
+</RelativeLayout>

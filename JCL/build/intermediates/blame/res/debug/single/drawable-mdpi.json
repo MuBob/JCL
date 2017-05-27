@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\img_d.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-mdpi\\img_d.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\green_bg.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-mdpi\\green_bg.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon_renzheng.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-mdpi\\icon_renzheng.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon_bottom_jiao.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-mdpi\\icon_bottom_jiao.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

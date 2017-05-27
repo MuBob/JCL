@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\raw\\notice.mp3",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\raw\\notice.mp3"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\raw\\temp_license_2015_07_03",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\raw\\temp_license_2015_07_03"
+    }
+]

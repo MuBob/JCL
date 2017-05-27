@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <View android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/hui"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:gravity="right|center_vertical"
+        android:layout_height="30dp">
+        
+        
+        <ImageView
+            android:id="@+id/iv_name_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shi"/>
+        <ImageView
+            android:id="@+id/iv_car_check"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/car"/>
+        
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:background="@color/white"
+	    android:orientation="horizontal" >
+	    <ImageView
+	        android:id="@+id/iv_car"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_margin="10dp"
+	        android:src="@drawable/ic_launcher" />
+	    
+	    <LinearLayout 
+	        android:layout_weight="1"
+	        android:layout_width="0dip"
+	        android:layout_height="80dp"
+	        android:layout_margin="10dp"
+	        android:orientation="vertical">
+	        <TextView
+	            android:id="@+id/tv_platenum"
+	            android:layout_width="fill_parent"
+	            android:layout_height="30dp"
+	            android:ellipsize="end"
+	            android:paddingLeft="10dp"
+	            android:maxEms="12"
+	            android:singleLine="true"
+	            android:text="辽C44236"
+	            android:textColor="@color/navigation"
+	            android:textSize="@dimen/h4" />
+	
+	        <TextView
+	            android:id="@+id/tv_car_type"
+	            android:layout_width="fill_parent"
+	            android:layout_height="20dp"
+	            android:layout_marginTop="5dp"
+	            android:paddingLeft="10dp"
+	            android:ellipsize="end"
+	            android:singleLine="true"
+	            android:text="箱式密封车"
+	            android:textColor="@color/black"
+	            android:textSize="@dimen/h6" />
+	
+	        <TextView
+	            android:id="@+id/tv_length_and_weight"
+	            android:layout_width="fill_parent"
+	            android:layout_height="20dp"
+	            android:layout_marginTop="5dp"
+	            android:paddingLeft="10dp"
+	            android:ellipsize="end"
+	            android:singleLine="true"
+	            android:text="15953384008"
+	            android:textColor="@color/black"
+	            android:textSize="@dimen/h6" />
+	    </LinearLayout>
+	    <ImageView
+	        android:id="@+id/iv_next"
+	       android:layout_width="wrap_content"
+	       android:layout_height="fill_parent"
+	       android:layout_marginRight="20dp"
+	       android:src="@drawable/next_icon" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="编辑" 
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+        
+        <TextView
+            android:id="@+id/btn_carpublic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="车辆动态" 
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+
+        <TextView
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/must" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="是否空车"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h6" />
+
+        <com.jcl.android.view.CheckSwitchButton
+            android:id="@+id/csb_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:enabled="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="（打开即为空车，关闭即为暂不接货）"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+    </LinearLayout>
+            
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/must" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="开启实时定位"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h6" />
+
+        <com.jcl.android.view.CheckSwitchButton
+            android:id="@+id/csb_submit_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:enabled="true" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/hui"/>
+</LinearLayout>

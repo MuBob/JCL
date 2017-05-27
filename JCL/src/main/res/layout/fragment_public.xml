@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_public_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_public_car"
+            android:gravity="center_horizontal"
+            android:text="发布车源"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+
+        <TextView
+            android:id="@+id/tv_public_zhuanxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_public_zhuanxian"
+            android:gravity="center_horizontal"
+            android:text="发布专线"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+
+        <TextView
+            android:id="@+id/tv_public_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_public_goods"
+            android:gravity="center_horizontal"
+            android:text="发布货源"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+       	android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_public_yunjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_public_yunjia"
+            android:gravity="center_horizontal"
+            android:text="国际运价"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+
+        <TextView
+            android:id="@+id/tv_public_youshiluxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="国际优势线路"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/h7"
+            android:drawablePadding="5dp"
+            android:textColor="@color/tab_text"
+            android:drawableTop="@drawable/icon_public_youshiluxian" />
+
+        <TextView
+            android:id="@+id/tv_public_carmaimai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_public_carmaimai"
+            android:gravity="center_horizontal"
+            android:text="车辆买卖信息"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_public_cheliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/glcy"
+            android:gravity="center_horizontal"
+            android:text="空车上传"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+
+     <TextView
+        android:id="@+id/tv_public_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/icon_public_other"
+        android:gravity="center_horizontal"
+        android:text="发布广告"
+        android:textColor="@color/tab_text"
+        android:textSize="@dimen/h7" />
+
+        <TextView
+            android:id="@+id/tv_public_huowu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/glhy"
+            android:gravity="center_horizontal"
+            android:text="货物管理"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+    </LinearLayout>
+    
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/tab_text"
+        android:textSize="@dimen/h7" />
+
+    <TextView
+        android:id="@+id/tv_quick_public"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_quick_public"
+        android:layout_marginTop="20dp" />
+    
+    <TextView
+        android:id="@+id/tv_quick_cheliang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cheliangmaimai"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <ImageView
+        android:id="@+id/im_advert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/advert" />
+
+</LinearLayout>

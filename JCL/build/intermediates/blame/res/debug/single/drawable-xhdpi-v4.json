@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\welcome_android.jpg",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\welcome_android.jpg"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\boom_3.jpg",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\boom_3.jpg"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\boom_1.jpg",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\boom_1.jpg"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\boom_4.jpg",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\boom_4.jpg"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\boom_2.jpg",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\boom_2.jpg"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tips.jpg",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tips.jpg"
+    }
+]

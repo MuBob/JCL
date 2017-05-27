@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/tv_chufadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textColor="@color/navigation"
+            android:textSize="@dimen/h5" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="15dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/navigation" />
+
+        <TextView
+            android:id="@+id/tv_mudidi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/navigation"
+            android:textSize="@dimen/h5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_chufashijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_top"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/icon_find_fahuoshijian"
+        android:drawablePadding="5dp"
+        android:text="TextView"
+        android:textColor="@color/color666"
+        android:textSize="@dimen/h6" />
+
+    <TextView
+        android:id="@+id/tv_goodsinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_chufashijian"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/icon_find_goods_info"
+        android:drawablePadding="5dp"
+        android:text="TextView"
+        android:textColor="@color/color666"
+        android:textSize="@dimen/h6" />
+
+    <TextView
+        android:id="@+id/tv_baojia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_goodsinfo"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/icon_find_detail_fukuanfangshi"
+        android:drawablePadding="5dp"
+        android:text="TextView"
+        android:textColor="@color/color666"
+        android:textSize="@dimen/h6" />
+    <ImageView
+	        android:id="@+id/img_call"
+	        android:layout_marginLeft="5dp"
+	        android:layout_toRightOf="@+id/tv_baojia"
+	        android:layout_below="@+id/tv_goodsinfo"
+	        android:layout_width="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/icon_phone" />
+      <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_goodsinfo"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"
+        android:text="查看详情"
+         android:layout_toRightOf="@+id/img_call"
+        android:textColor="@color/navigation"
+        android:textSize="@dimen/h6" />
+
+    <TextView
+        android:id="@+id/tv_qiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/icon_qiang"
+        android:gravity="center"
+        android:text="采用\n报价"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h5" />
+
+</RelativeLayout>

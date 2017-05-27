@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:right_visible="false"
+        navigation:tv_title="实名认证" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="30dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_auth_title" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="实名认证"
+                    android:textColor="@color/navigation"
+                    android:textSize="@dimen/h2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hui" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="*"
+                        android:textColor="@color/must"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="真实姓名"
+                        android:textColor="@color/tab_text"
+                        android:textSize="@dimen/h4" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_truename"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edt_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="*"
+                        android:textColor="@color/must"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="身份证号"
+                        android:textColor="@color/tab_text"
+                        android:textSize="@dimen/h4" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_usercardnum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edt_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="*"
+                        android:textColor="@color/must"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tv_sfz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tv_star"
+                        android:gravity="left"
+                        android:text="身份照片(请手持身份证正面和反面拍照上传，为防止不通过请保证照片清晰)"
+                        android:textColor="@color/tab_text"
+                        android:textSize="@dimen/h4" />
+
+                    <ImageView
+                        android:id="@+id/iv_usercard_y"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/tv_sfz"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_upload_img" />
+
+                    <ImageView
+                        android:id="@+id/iv_usercard_n"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/tv_sfz"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/iv_usercard_y"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_upload_img" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/iv_usercard_n"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/iv_usercard_n"
+                        android:text="图片大小控制在2M以内，\n格式支持jpg、png、gif"
+                        android:textColor="@color/defult_text"
+                        android:textSize="@dimen/h7" />
+                </RelativeLayout>
+            </LinearLayout>
+            
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_shouchicard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="手持身份证"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h4" />
+
+                <ImageView
+                    android:id="@+id/iv_shouchicard"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignLeft="@+id/tv_shouchicard"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_upload_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="*"
+                    android:textColor="@color/must"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="42dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_shouchiyangli" />
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_carcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="驾照"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h4" />
+
+                <ImageView
+                    android:id="@+id/iv_carcard"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tv_carcard"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_upload_img" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_carcard"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/iv_carcard"
+                    android:text="图片大小控制在2M以内，\n格式支持jpg、png、gif"
+                    android:textColor="@color/defult_text"
+                    android:textSize="@dimen/h7" />
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_commit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_register"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="提交认证"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

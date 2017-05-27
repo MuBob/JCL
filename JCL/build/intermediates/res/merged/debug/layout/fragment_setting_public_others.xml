@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_parent"
+    android:orientation="vertical" >
+    <com.jcl.android.base.BaseSwipeRefreshLayout
+        android:id="@+id/sr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/main_bg"
+        android:fadingEdge="none" >
+
+        <ListView
+            android:id="@+id/lv_find_by_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:dividerHeight="8dp" />
+    </com.jcl.android.base.BaseSwipeRefreshLayout>
+
+</LinearLayout>

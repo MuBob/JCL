@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_buchonghuowuinfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:divider="@drawable/horizontal_divider"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/ll_ponum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+        
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/must" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="货物编号"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <EditText
+            android:id="@+id/et_po"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:gravity="center_vertical"
+            android:hint="PO#/货物编号"
+            android:paddingLeft="5dp"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <ImageView
+            android:id="@+id/iv_select_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+           	android:visibility="gone"
+            android:src="@drawable/icon_bottom_jiao" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+        
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/must" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="贸易类型"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <com.jcl.android.view.WhSpinner
+            android:id="@+id/ws_maoyileixing"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_nomal"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+            android:id="@+id/cb_changqihuoyuan"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="长期货源"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+        
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/must" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="包装方式"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <com.jcl.android.view.WhSpinner
+            android:id="@+id/ws_baozhuangfangshi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_nomal"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+
+        <EditText
+            android:id="@+id/et_jianshu"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:hint="件数"
+            android:inputType="number"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+        
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/must" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="货物重量"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <EditText 
+            android:id="@+id/et_huowuzhongliang"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_nomal"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:inputType="numberDecimal"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <com.jcl.android.view.WhSpinner
+                    android:id="@+id/ws_dun"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/bg_public_check_nomal"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+        
+        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/must" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="货物体积"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <EditText
+            android:id="@+id/et_huowutiji"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_nomal"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:inputType="numberDecimal"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="立方米"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="单件货物"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <EditText
+            android:id="@+id/et_chaochicun"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_nomal"
+            android:gravity="center_vertical"
+            android:hint="请输入最大 长X宽X高"
+            android:paddingLeft="5dp"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="米"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h7" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="柜型柜量"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <EditText
+            android:id="@+id/et_guixingguiliang"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_nomal"
+            android:gravity="center_vertical"
+            android:hint="请输入柜型柜量"
+            android:paddingLeft="5dp"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+    </LinearLayout>
+
+</LinearLayout>

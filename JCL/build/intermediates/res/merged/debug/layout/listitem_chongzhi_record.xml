@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/icon_qiang"
+        android:gravity="center"
+        android:text="￥"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h1" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv_img"
+        android:text="聚畅支付宝充值"
+        android:textColor="@color/color666"
+        android:textSize="@dimen/h3" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/tv_img"
+        android:text="2015-10-2"
+        android:textColor="@color/color666"
+        android:textSize="@dimen/h6" />
+
+    <TextView
+        android:id="@+id/tv_jine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="300元"
+        android:textColor="@color/main_green"
+        android:textSize="@dimen/h3" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_jine"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="交易完成"
+        android:textColor="@color/color666"
+        android:textSize="@dimen/h6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_img"
+        android:layout_marginTop="10dp"
+        android:background="@color/view_bg" />
+
+</RelativeLayout>

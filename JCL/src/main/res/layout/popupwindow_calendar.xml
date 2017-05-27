@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_calendar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible" 
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/calendarCenter"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp" />
+
+    <ImageButton
+        android:id="@+id/calendarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:src="@drawable/calendar_month_left" />
+
+    <ImageButton
+        android:id="@+id/calendarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:src="@drawable/calendar_month_right" />
+
+    <com.jcl.android.view.CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/calendarCenter" />
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/calendar"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="@dimen/h5"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edt_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/h5"
+            android:text="取消"
+            android:textColor="@color/tab_text" />
+    </LinearLayout>
+
+</RelativeLayout>

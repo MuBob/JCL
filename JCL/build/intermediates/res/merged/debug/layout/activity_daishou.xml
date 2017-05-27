@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+    
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:btn_rightText="完成"
+        navigation:tv_title="代收货款" />
+    
+     <View 
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#ccc"/>
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/white"
+         android:drawableLeft="@drawable/daishou_zhaoshang"
+         android:drawablePadding="3dp"
+         android:padding="10dp"
+         android:textColor="@color/navigation"
+         android:text=" 公司名称：青岛聚畅网络科技有限公司\n 银行账户：532906083510828\n 开户行：招商银行香港西路支行" />
+     
+          <View 
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#ccc"/>
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/white"
+         android:drawableLeft="@drawable/daishou_zhifubao"
+         android:drawablePadding="3dp"
+         android:padding="10dp"
+         android:textColor="@color/navigation"
+         android:text=" 账户名：maggie_ma@speedy-express.com\n 公司名称：青岛聚畅网络科技有限公司" />
+
+</LinearLayout>

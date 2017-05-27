@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/tv_chufadi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableRight="@drawable/icon_public_bottom_jt"
+            android:text="出发地" />
+
+        <TextView
+            android:id="@+id/tv_mudidi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableRight="@drawable/icon_public_bottom_jt"
+            android:layout_marginLeft="5dp"
+            android:text="目的地" />
+
+
+        <TextView
+            android:id="@+id/tv_linetype"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:drawableRight="@drawable/icon_public_bottom_jt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="线路类型" />
+        
+        <ImageView
+            android:id="@+id/iv_find_more"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/icon_find_right_more"/>
+
+    </LinearLayout>
+
+    <com.jcl.android.base.BaseSwipeRefreshLayout
+        android:id="@+id/sr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/main_bg"
+        android:fadingEdge="none" >
+
+        <ListView
+            android:id="@+id/lv_find_by_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:dividerHeight="8dp" />
+    </com.jcl.android.base.BaseSwipeRefreshLayout>
+
+</LinearLayout>

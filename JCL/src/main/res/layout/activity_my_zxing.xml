@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:tv_title="我的二维码"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tab_text"
+                android:textSize="@dimen/h5"
+                android:layout_margin="8dp"
+                android:text="邀请好友加盟平台成功，邀请人可得现金大奖，详询4006054077" />
+      
+    <ImageView
+        android:id="@+id/iv_zxing"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_invited_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/navigation"
+        android:text="扫我注册各得5积分" />
+    
+    <Button
+                    android:id="@+id/btn_invate"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_register"
+                    android:layout_marginTop="20dp"
+                    android:text="更多分享"
+                    android:textColor="@color/white" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FEB533"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:text="邀请好友"
+            android:textSize="@dimen/h4" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/umeng_socialize_wechat"
+            android:gravity="center"
+            android:text="微信好友" />
+
+        <TextView
+            android:id="@+id/tv_wxcircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/umeng_socialize_wxcircle"
+            android:gravity="center"
+            android:text="朋友圈" />
+
+        <TextView
+            android:id="@+id/tv_sina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/umeng_socialize_sina_on"
+            android:gravity="center"
+            android:text="新浪微博" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/umeng_socialize_qq_on"
+            android:gravity="center"
+            android:text="QQ" />
+
+        <TextView
+            android:id="@+id/tv_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/umeng_socialize_sms_on"
+            android:gravity="center"
+            android:text="短信" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/umeng_socialize_gmail_on"
+            android:gravity="center"
+            android:text="邮件" />
+    </LinearLayout>
+    
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tab_text"
+                android:textSize="@dimen/h5"
+                android:layout_marginTop="8dp"
+                android:layout_margin="8dp"
+                android:text="新年开始特惠月，特推出实名认证送彩票活动，不仅可入微信,QQ群，一周之内发布不低于3条信息可获得一张福利彩票。用自己的邀请码（邀请码在个人中心中查看），邀请3名实名认证用户且邀请人一周内发布不低于3条消息，推荐人可以得1张福利彩票，并可就近领取一套手机扣,被邀请人平台配货成功，可得相应比例提成" />
+    
+    <TextView 
+        android:id="@+id/tv_invitation_code"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:minLines="2"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/h5"
+        android:textColor="@color/red"/>
+      </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

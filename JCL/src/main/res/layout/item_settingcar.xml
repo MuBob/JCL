@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+	        android:id="@+id/tv_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/h4"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/tv_car_code"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:textSize="@dimen/h6"
+	        android:textColor="@color/car_num"
+	        android:text="" />
+         <ImageView
+	        android:id="@+id/img_check1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	         />
+	    <ImageView
+	        android:id="@+id/img_check2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	         />
+	    <View 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="0dp"/>
+
+
+	    <TextView
+	        android:id="@+id/tv_creattime"
+	        android:layout_marginRight="10dp"
+	        android:textSize="@dimen/h6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:text="2016-06-25"
+	         />
+        
+    </LinearLayout>
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ccc" />
+    <LinearLayout 
+        android:id="@+id/ll_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+	    <TextView
+            android:id="@+id/tv_jjdegrees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h5"/>
+        <TextView
+            android:id="@+id/tv_cartype"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="车源类型" 
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+
+
+        <TextView
+            android:id="@+id/tv_pingtai"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="平台选择" 
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_car_header"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/btn_login_selector" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_car_header"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@+id/img_car_header"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_chufadi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_line"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/navigation"
+                android:textSize="@dimen/h6" />
+
+            <View
+                android:id="@+id/view_line"
+                android:layout_marginLeft="5dp"
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/navigation" />
+
+            <TextView
+                android:id="@+id/tv_mudidi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/navigation"
+                android:textSize="@dimen/h6" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ll_shijian"
+            android:background="@drawable/btn_price"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_chexing"
+            android:layout_marginTop="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ll_shijian"
+            android:layout_alignTop="@+id/tv_price"
+            android:drawableLeft="@drawable/icon_find_chexing"
+            android:drawablePadding="5dp"
+            android:text=""
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h6" />
+
+        <LinearLayout
+            android:id="@+id/ll_shijian"
+            android:layout_marginTop="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:text="TextView"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h6" >
+            <TextView
+                android:id="@+id/tv_starttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_find_fahuoshijian"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/navigation"
+                android:textSize="@dimen/h6" />
+
+            <View
+                android:id="@+id/view_line2"
+                android:layout_marginLeft="5dp"
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/navigation" />
+
+            <TextView
+                android:id="@+id/tv_endtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/navigation"
+                android:textSize="@dimen/h6" />
+            
+            <TextView
+                android:id="@+id/tv_kongche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color666"
+                android:textSize="@dimen/h6" />
+
+            </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout 
+        android:id="@+id/ll_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="删除" 
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+
+        <TextView
+            android:id="@+id/btn_resend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="重发" 
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+
+        <TextView
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="编辑" 
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+        
+        <TextView
+            android:id="@+id/btn_cheyizou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="车已走" 
+            android:layout_weight="1"
+            android:background="@drawable/edt_content"
+            android:textColor="@color/color666"
+            android:textSize="@dimen/h5"/>
+        
+    </LinearLayout>
+
+   
+
+</LinearLayout>

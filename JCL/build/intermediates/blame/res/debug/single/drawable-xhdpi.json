@@ -1,0 +1,906 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_tab_line.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bg_tab_line.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markc.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markc.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\register_header_icon.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\register_header_icon.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_facebook.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_home_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_home_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_gmail_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_gmail_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_car.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_car.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tjbx.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tjbx.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_others.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_others.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_at_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\home_white.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\home_white.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_quick_public.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_quick_public.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_marka.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_marka.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_wuliu.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_wuliu.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_qq_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edt_content.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\edt_content.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_qiangdan.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_qiangdan.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\baoxian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\baoxian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_carmaimai.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_carmaimai.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_sms_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_sms_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_button_blue.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_toolbar_share.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_toolbar_share.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markg.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markg.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_back_click.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_back_click.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_goods_info.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_goods_info.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_gotoshare.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_gotoshare.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_detail_goods_info.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_detail_goods_info.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_timer.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_timer.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_goodsinfo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_goodsinfo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_light_bar_bg.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_defult.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\img_defult.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_renren_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_wechat_gray.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_tx_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\duanxintuisong.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\duanxintuisong.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zx_tuiguang_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zx_tuiguang_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_feedback.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_feedback.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\daishou_zhifubao.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\daishou_zhifubao.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_renren_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_ju.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_ju.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_public_zhuanxian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_public_zhuanxian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_qq_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\copyright.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\copyright.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setsafe.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setsafe.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\glhy.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\glhy.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_sina_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_mypromote.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_mypromote.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_usercenter_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_usercenter_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_button_login_pressed.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markj.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markj.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_nav_bar_bg.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_message_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_message_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkswitch_btn_unpressed.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\checkswitch_btn_unpressed.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bd.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bd.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_pop_item.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bg_pop_item.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_storage_detail.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_storage_detail.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_at_selected.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_guojiyunjia.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_guojiyunjia.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_share.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_share.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_other.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_other.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_public_gjxianlu.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_public_gjxianlu.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_fahuoshijian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_fahuoshijian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkswitch_btn_pressed.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\checkswitch_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_mycollect.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_mycollect.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dark_dot.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\dark_dot.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zx_add_whit.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zx_add_whit.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_back_bt_selected.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_douban_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_message_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_message_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_douban_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_follow_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yuan_huoyizou.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\yuan_huoyizou.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_userinfo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_userinfo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_myorder.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_myorder.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\startlogo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\startlogo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_storage_content.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_storage_content.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_place.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_place.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_huo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_huo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_line.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_line.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_goods.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_goods.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_default.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_default.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_right_more.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_right_more.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_upload_img.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_upload_img.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_guide_on_click.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_guide_on_click.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkswitch_frame.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\checkswitch_frame.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_guide_defualt.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_guide_defualt.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_tx_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\iv_ad.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\iv_ad.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_youshiluxian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_youshiluxian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ponum.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\ponum.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_public_check_checked.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bg_public_check_checked.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_detail_maoyileixing.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_detail_maoyileixing.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_chexing.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_chexing.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_btn_mygoods.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_btn_mygoods.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setorder.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setorder.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cheliangguanli.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\cheliangguanli.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zx_add.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zx_add.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_play.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_play.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_marke.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_marke.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\service_tel.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\service_tel.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_table.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_table.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_push.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_push.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_tab_left_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_oauth_check_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_location_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_detail_chufashijian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_detail_chufashijian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_action_back_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_yunjia.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_yunjia.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_che.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_che.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_qzone_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markd.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markd.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calendar_month_left.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\calendar_month_left.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_right_bt_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\iconfont_close.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\iconfont_close.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_auth_title.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_auth_title.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_public_check_nomal.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bg_public_check_nomal.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_toolbox.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_toolbox.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_wxcircle.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_usercenter_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_usercenter_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\advert.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\advert.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\huichengche.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\huichengche.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_detail_right_jt.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_detail_right_jt.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_btn_mycarsource.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_btn_mycarsource.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_detail_chexing.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_detail_chexing.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_detail_chufadi.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_detail_chufadi.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_speech.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_speech.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_open.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_open.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_detail_mudidi.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_detail_mudidi.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\white_dot.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\white_dot.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markf.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markf.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\iv_add_photo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\iv_add_photo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_carinfo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_carinfo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_sina_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_qzone_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\home_car.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\home_car.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_mywallet.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_mywallet.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_google.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_help.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_help.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_wechat.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_register_default.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_register_default.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_bind_bg.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_default_avatar.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_home_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_home_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_line.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_line.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ico_search.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\ico_search.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_btn_mycar.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_btn_mycar.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_getfriends.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_getfriends.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_refersh.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_about.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_about.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zx_zhiding_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zx_zhiding_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_myquan.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_myquan.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cheliangmaimai.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\cheliangmaimai.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_btn_mygoodssource.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_btn_mygoodssource.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\daishou_zhaoshang.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\daishou_zhaoshang.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_prompt.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\img_prompt.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_tab_right_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_peihuozhan.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_peihuozhan.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_ppw_bottom_select.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bg_ppw_bottom_select.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yuan_qiang.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\yuan_qiang.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_faxian_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_faxian_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_register_pressed.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_register_pressed.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_marki.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_marki.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_faxian_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_faxian_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_fetch_image.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_public_gjyunjia.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_public_gjyunjia.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_public_cars.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_public_cars.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_gmail_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_gmail_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_cangchu.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_cangchu.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_toolbar_collect_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_toolbar_collect_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_close.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_close.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_action_back_selected.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ico_tishi.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\ico_tishi.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_price.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_price.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\daishouhuokuan.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\daishouhuokuan.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zx_tuiguang_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zx_tuiguang_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\slogan.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\slogan.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_button_white.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_price.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_price.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_settting_public_carmaimai.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_settting_public_carmaimai.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_phone.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_phone.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_pic_delete.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\btn_pic_delete.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_back_bt_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_default_header.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_default_header.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\rz.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\rz.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_button_red.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_follow_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_location_off.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zhuanxian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zhuanxian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_header.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\img_header.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_toorbar_collect_checked.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_toorbar_collect_checked.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkswitch_bottom.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\checkswitch_bottom.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_detail_tupian.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_detail_tupian.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_sms_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_sms_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_public_other.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_public_other.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calendar_month_right.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\calendar_month_right.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_button_login_normal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_location_ic.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\glcy.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\glcy.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_air_line.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_air_line.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public_zx_zhiding_nomal.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_public_zx_zhiding_nomal.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_detail_fukuanfangshi.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_detail_fukuanfangshi.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkswitch_mask.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\checkswitch_mask.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_chang.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\tab_chang.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\lichengchaxun.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\lichengchaxun.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setpublic.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setpublic.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_twitter.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_wxcircle_gray.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shunfengche.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\shunfengche.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\compamy_submit.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\compamy_submit.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_title_right_bt_selected.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_oauth_check_on.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\personal_submit.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\personal_submit.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_x_button.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_home_quan.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\bg_home_quan.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_search_icon.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_setting_public_goods.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_setting_public_goods.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\umeng_socialize_button_grey.9.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markb.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markb.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_markh.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_markh.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_find_more.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xhdpi\\icon_find_more.png"
+    }
+]

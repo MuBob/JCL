@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:divider="@drawable/horizontal_divider"
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:btn_rightText="添加货源"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:right_visible="true"
+        navigation:tv_title="管理发布的货源" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tab_left"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_choice_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="无人报价"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="@dimen/h3" />
+
+        <RadioButton
+            android:id="@+id/tab_center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_choice_bg"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="有报价"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="@dimen/h3" />
+
+        <RadioButton
+            android:id="@+id/tab_right"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_choice_bg"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="被删除"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="@dimen/h3" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="-1dp"
+        android:background="#ccc" />
+
+    <com.jcl.android.view.NoScrollViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

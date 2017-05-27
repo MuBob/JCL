@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup_side.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\popup_side.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\next_icon.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\next_icon.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup_right.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\popup_right.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup_down.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\popup_down.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_btn_server.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\icon_btn_server.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\popup.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\right.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\right.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_table.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\icon_table.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\left.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\left.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup_left.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\popup_left.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\iconfont_close.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\iconfont_close.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup_middle.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\popup_middle.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_defult.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\img_defult.png"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\zhuanxianjiantou.png",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\drawable-xxhdpi\\zhuanxianjiantou.png"
+    }
+]

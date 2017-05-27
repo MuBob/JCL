@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:btn_rightText="false"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:tv_title="誉畅配货" />
+
+      
+        <WebView
+            android:id="@+id/blog_WebView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:focusable="false" />
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_zengzhifuwu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:divider="@drawable/horizontal_divider"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/cb_baoxian"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="保险"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+            android:id="@+id/cb_baoguan"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="报关"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+            android:id="@+id/cb_baojian"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="报检"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+            android:id="@+id/cb_guoneihaiyun"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="国内海运"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/cb_guoneikongyun"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="国内空运"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+            android:id="@+id/cb_guojihaiyun"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="国际海运"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+            android:id="@+id/cb_guojikongyun"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="国际空运"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+
+        <CheckBox
+             android:id="@+id/cb_daishoufuwu"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_public_check_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="代收货款"
+            android:visibility="gone"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h5" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_hangbanhao"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_public_check_nomal"
+        android:ems="10"
+        android:hint="航名航次（航班号）"
+        android:paddingLeft="5dp"
+        android:textColor="@color/tab_text"
+        android:textColorHint="@color/tab_text"
+        android:textSize="@dimen/h5" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_tidanhao"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_public_check_nomal"
+        android:ems="10"
+        android:hint="提单号"
+        android:paddingLeft="5dp"
+        android:textColor="@color/tab_text"
+        android:textColorHint="@color/tab_text"
+        android:textSize="@dimen/h5" >
+    </EditText>
+
+</LinearLayout>

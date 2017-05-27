@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:btn_rightText="登录"
+        navigation:btn_leftText="紧急配货"
+        navigation:tv_title_background="@drawable/logo" />
+    
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/navigation">
+        
+        <ImageView 
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="选择地区"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:orientation="horizontal" />
+        <TextView
+            android:id="@+id/tv_right"
+            android:text="登录"
+             android:layout_alignParentRight="true"
+             android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+             android:gravity="center_vertical"
+             android:textColor="#fff"
+             android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <com.jcl.android.view.NoScrollViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_tab"
+        android:layout_below="@+id/action_bar"
+        android:background="@drawable/mainshape"
+        android:persistentDrawingCache="animation" />
+
+    <ImageView
+        android:id="@+id/bg_tab_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rg_tab"
+        android:src="@drawable/bg_tab_line" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tab_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="查找"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/tab_fx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_faxian_selector"
+            android:gravity="center"
+            android:text="发现"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/tab_public"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="bottom|center_horizontal"
+            android:text="发布"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/tab_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_message_selector"
+            android:gravity="center"
+            android:text="消息"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/tab_usercenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_usercenter_selector"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="13sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/tab_chang" />
+
+    <com.jcl.android.view.CircleView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:focusable="false"
+        android:enabled="false"
+        android:clickable="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

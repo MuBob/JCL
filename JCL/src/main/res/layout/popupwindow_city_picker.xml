@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/main_bg"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="请选择省市区"
+            android:textColor="@color/tab_text"
+            android:textSize="@dimen/h4" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/id_province"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+           	android:divider="@null"
+           	android:choiceMode="singleChoice"
+            android:layout_weight="1" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/id_city"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+           	android:choiceMode="singleChoice"
+           	android:divider="@null"
+            android:layout_weight="1" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/id_district"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+           	android:choiceMode="singleChoice"
+           	android:divider="@null"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="@dimen/h5"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edt_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/h5"
+            android:text="取消"
+            android:textColor="@color/tab_text" />
+    </LinearLayout>
+
+</LinearLayout>

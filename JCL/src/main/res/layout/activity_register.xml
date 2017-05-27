@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:tv_title="注册"
+        navigation:right_visible="false"
+        android:gravity="center"/>
+   <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <RadioButton
+            android:id="@+id/tab_register_p"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/tab_choice_bg"
+            android:textSize="@dimen/h3"
+            android:textColor="@drawable/tab_text_selector"
+            android:text="个人注册"/>
+        <RadioButton
+            android:id="@+id/tab_register_c"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textColor="@drawable/tab_text_selector"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="false"
+            android:background="@drawable/tab_choice_bg"
+            android:textSize="@dimen/h3"
+            android:text="企业注册"/>
+        </RadioGroup>
+        <View 
+	     	android:layout_marginTop="-1dp"
+	     	android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="#ccc"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="企业注册需要企业资质认证，是企业管理员账号\n企业员工建议做个人注册"
+            android:textColor="@color/navigation"
+            android:textSize="@dimen/h7" />
+
+        <com.jcl.android.view.NoScrollViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:persistentDrawingCache="animation"
+            />
+
+</LinearLayout>

@@ -1,0 +1,1205 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:2:1-834:12
+	package
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:22.1.0] C:\Users\Administrator\.android\build-cache\4cf2b2855a0af361201a5ae1f7dce81f08ec28d6\output\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+		INJECTED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:12:5-82
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:12:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:13:5-88
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:13:22-85
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:17:22-68
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:24:5-25:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:24:22-66
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:27:5-28:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:30:5-31:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:30:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:33:5-34:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:33:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:36:5-37:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:36:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:39:5-40:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:39:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:42:5-43:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:42:22-72
+uses-permission#android.permission.INTERNET
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:45:5-67
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:45:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:47:5-48:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:47:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:50:5-51:23
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:50:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:52:5-71
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:52:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:53:5-74
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:53:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:54:5-74
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:54:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:55:5-80
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:55:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:56:5-85
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:56:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:57:5-75
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:57:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:58:5-73
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:58:22-70
+uses-permission#android.permission.ACCESS_GPS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:59:5-69
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:59:22-66
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:61:5-68
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:61:22-65
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:64:5-71
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:64:22-69
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:67:5-78
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:67:22-76
+uses-permission#getui.permission.GetuiService.com.jcl.android
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:70:5-84
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:70:22-82
+permission#getui.permission.GetuiService.com.jcl.android
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:72:5-74:43
+	android:protectionLevel
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:74:9-41
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:73:9-69
+application
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:75:5-832:19
+MERGED from [com.android.support:support-v4:22.1.0] C:\Users\Administrator\.android\build-cache\4cf2b2855a0af361201a5ae1f7dce81f08ec28d6\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:79:9-41
+	android:allowBackup
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:77:9-35
+	android:icon
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:78:9-45
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:80:9-40
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:76:9-51
+activity#com.jcl.android.activity.SplashActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:81:9-89:20
+	android:label
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:83:13-45
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:82:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:84:13-88:29
+action#android.intent.action.MAIN
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:85:17-69
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:85:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:87:17-77
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:87:27-74
+service#com.jcl.android.service.UpdateService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:90:9-66
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:90:18-55
+activity#com.jcl.android.activity.HomeActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:92:9-96:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:95:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:94:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:93:13-50
+activity#com.jcl.android.activity.GuideActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:98:9-102:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:101:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:100:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:99:13-51
+activity#com.jcl.android.activity.RegisterActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:104:9-108:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:107:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:106:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:105:13-54
+activity#com.jcl.android.activity.LoginActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:110:9-114:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:113:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:112:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:111:13-51
+activity#com.jcl.android.activity.FindPasswordActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:116:9-120:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:119:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:118:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:117:13-58
+activity#com.jcl.android.activity.AuthenticationCompanyActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:123:9-127:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:126:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:125:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:124:13-67
+activity#com.jcl.android.activity.AuthenticationPersonalActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:130:9-134:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:133:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:132:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:131:13-68
+activity#com.jcl.android.activity.PersonalInfoActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:136:9-140:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:139:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:138:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:137:13-58
+activity#com.jcl.android.activity.GetPersonalInfoActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:141:9-145:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:144:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:143:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:142:13-61
+activity#com.jcl.android.activity.CompanyInfoActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:147:9-151:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:150:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:149:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:148:13-57
+activity#com.jcl.android.activity.GetCompanyInfoActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:153:9-157:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:156:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:155:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:154:13-60
+activity#com.jcl.android.activity.SelectPicActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:159:9-164:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:162:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:161:13-63
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:163:13-55
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:160:13-55
+activity#com.jcl.android.activity.PublicGoodsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:167:9-172:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:170:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:171:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:169:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:168:13-57
+activity#com.jcl.android.activity.MessageDetilActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:175:9-180:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:178:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:179:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:177:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:176:13-58
+activity#com.jcl.android.activity.QuickPublicGoodsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:183:9-188:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:186:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:187:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:185:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:184:13-62
+activity#com.jcl.android.activity.PublishCarActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:190:9-195:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:193:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:194:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:192:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:191:13-56
+activity#com.jcl.android.activity.MyInviteActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:198:9-203:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:201:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:202:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:200:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:199:13-54
+activity#com.jcl.android.activity.CarManageActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:205:9-209:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:208:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:207:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:206:13-55
+activity#com.jcl.android.activity.AddCarActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:212:9-216:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:215:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:214:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:213:13-52
+activity#com.jcl.android.activity.PublicOtherActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:218:9-223:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:221:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:222:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:220:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:219:13-57
+activity#com.jcl.android.activity.SettingPublicOtherActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:225:9-230:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:228:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:229:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:227:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:226:13-64
+activity#com.jcl.android.activity.ZxingActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:233:9-238:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:236:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:237:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:235:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:234:13-51
+activity#com.jcl.android.activity.PublicZhuanxianActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:241:9-246:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:244:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:245:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:243:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:242:13-61
+activity#com.jcl.android.activity.FindGoodsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:248:9-253:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:251:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:252:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:250:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:249:13-55
+activity#com.jcl.android.activity.FindStrorageActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:255:9-260:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:258:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:259:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:257:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:256:13-58
+activity#com.jcl.android.activity.FindLogisticsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:262:9-267:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:265:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:266:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:264:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:263:13-59
+activity#com.jcl.android.activity.FindDistributionActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:269:9-274:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:272:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:273:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:271:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:270:13-62
+activity#com.jcl.android.activity.FindOthersActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:276:9-281:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:279:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:280:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:278:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:277:13-56
+activity#com.jcl.android.activity.FindKuaiXunActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:284:9-289:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:287:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:288:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:286:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:285:13-57
+activity#com.jcl.android.activity.FindEvalutesActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:292:9-297:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:295:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:296:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:294:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:293:13-58
+activity#com.jcl.android.activity.HelpActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:299:9-304:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:302:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:303:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:301:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:300:13-50
+activity#com.jcl.android.activity.PointActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:307:9-312:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:310:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:311:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:309:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:308:13-51
+activity#com.jcl.android.activity.SecureActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:315:9-320:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:318:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:319:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:317:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:316:13-52
+activity#com.jcl.android.activity.AdviceActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:323:9-328:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:326:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:327:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:325:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:324:13-52
+activity#com.jcl.android.activity.GetLatLotActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:330:9-335:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:333:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:334:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:332:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:331:13-55
+activity#com.jcl.android.activity.FindCarsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:337:9-342:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:340:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:341:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:339:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:338:13-54
+activity#com.jcl.android.activity.DetailFindActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:344:9-349:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:347:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:348:13-52
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:346:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:345:13-56
+activity#com.jcl.android.activity.SettingPublicActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:351:9-357:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:355:13-49
+	android:hardwareAccelerated
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:354:13-48
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:356:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:353:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:352:13-59
+activity#com.jcl.android.activity.SettingPublicGoodsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:359:9-364:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:362:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:363:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:361:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:360:13-64
+activity#com.jcl.android.activity.SettingQuickPublicGoodsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:366:9-371:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:369:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:370:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:368:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:367:13-69
+activity#com.jcl.android.activity.SettingPublicCarsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:373:9-378:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:376:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:377:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:375:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:374:13-63
+activity#com.jcl.android.activity.SettingPublicZhuanxianActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:381:9-386:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:384:13-49
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:385:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:383:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:382:13-68
+activity#com.jcl.android.push.SpeechPushInfoActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:389:9-396:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:392:13-49
+	android:launchMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:395:13-44
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:394:13-54
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:391:13-63
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:393:13-60
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:390:13-56
+activity#com.jcl.android.activity.GoodsManageActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:399:9-403:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:402:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:401:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:400:13-57
+activity#com.jcl.android.activity.AddGoodsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:405:9-409:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:408:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:407:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:406:13-54
+activity#com.jcl.android.activity.ModifyPasswordActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:411:9-415:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:414:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:413:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:412:13-60
+activity#com.jcl.android.activity.MyCollectActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:417:9-421:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:420:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:419:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:418:13-55
+activity#com.jcl.android.activity.CollectChildActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:423:9-427:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:426:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:425:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:424:13-58
+activity#com.jcl.android.activity.SettingLogisticsCircleActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:429:9-433:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:432:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:431:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:430:13-68
+activity#com.jcl.android.activity.MyLogisticCircleActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:435:9-439:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:438:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:437:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:436:13-62
+activity#com.jcl.android.activity.SettingOrderActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:441:9-445:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:444:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:443:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:442:13-58
+activity#com.jcl.android.activity.SettingGoodsOrderActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:447:9-451:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:450:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:449:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:448:13-63
+activity#com.jcl.android.activity.SettingCarsOrderActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:453:9-457:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:456:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:455:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:454:13-62
+activity#com.jcl.android.activity.SettingActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:459:9-463:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:462:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:461:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:460:13-53
+activity#com.jcl.android.activity.ToolsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:466:9-470:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:469:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:468:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:467:13-51
+activity#com.jcl.android.activity.ToolBoxActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:473:9-477:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:476:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:475:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:474:13-53
+activity#com.jcl.android.activity.DaiShouActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:480:9-484:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:483:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:482:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:481:13-53
+activity#com.jcl.android.activity.ToolCarSizeActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:487:9-491:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:490:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:489:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:488:13-57
+activity#com.jcl.android.activity.UserServiceActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:494:9-498:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:497:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:496:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:495:13-57
+activity#com.jcl.android.activity.BlogActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:500:9-504:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:503:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:502:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:501:13-50
+activity#com.jcl.android.activity.OfferOnlineActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:507:9-511:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:510:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:509:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:508:13-57
+activity#com.jcl.android.activity.FindOfferPriceActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:513:9-517:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:516:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:515:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:514:13-60
+activity#com.jcl.android.activity.AddHuizhidanActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:519:9-523:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:522:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:521:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:520:13-58
+activity#com.jcl.android.activity.HuidanInfoActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:525:9-529:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:528:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:527:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:526:13-56
+activity#com.jcl.android.activity.EvaluteActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:531:9-535:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:534:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:533:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:532:13-53
+activity#com.jcl.android.activity.MyWalletActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:537:9-541:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:540:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:539:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:538:13-54
+activity#com.jcl.android.activity.TradingRecordActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:543:9-547:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:546:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:545:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:544:13-59
+activity#com.jcl.android.activity.BundAlipayActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:549:9-553:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:552:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:551:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:550:13-56
+activity#com.jcl.android.activity.VouchManageActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:555:9-559:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:558:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:557:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:556:13-57
+activity#com.jcl.android.activity.PublicKuaiXunActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:561:9-565:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:564:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:563:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:562:13-59
+activity#com.jcl.android.activity.SettingPublicKuaiXunActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:567:9-571:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:570:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:569:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:568:13-66
+activity#com.jcl.android.activity.DetilFindKuaiXunActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:573:9-577:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:576:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:575:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:574:13-62
+activity#com.jcl.android.activity.AddContactsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:580:9-584:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:583:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:582:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:581:13-57
+activity#com.jcl.android.activity.SettingContactsActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:587:9-591:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:590:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:589:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:588:13-61
+activity#com.jcl.android.activity.MessageActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:594:9-598:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:597:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:596:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:595:13-53
+activity#com.jcl.android.activity.MyWebViewActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:601:9-605:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:604:13-49
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:603:13-63
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:602:13-55
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:608:9-614:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:612:13-47
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:611:13-37
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:613:13-67
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:610:13-74
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:609:13-60
+activity#com.jcl.android.wxapi.WXEntryActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:617:9-622:75
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:621:13-49
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:620:13-36
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:619:13-74
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:622:13-72
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:618:13-50
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:626:9-633:20
+	android:launchMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:629:13-44
+	android:noHistory
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:630:13-37
+	android:windowSoftInputMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:632:13-68
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:628:13-57
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:631:13-50
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:627:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:636:9-648:20
+	android:launchMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:638:13-44
+	android:noHistory
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:639:13-37
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:637:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:640:13-647:29
+action#android.intent.action.VIEW
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:641:17-69
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:641:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:643:17-76
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:643:27-73
+category#android.intent.category.BROWSABLE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:644:17-78
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:644:27-75
+data
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:646:17-59
+	android:scheme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:646:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:649:9-653:20
+	android:screenOrientation
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:651:13-49
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:652:13-72
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:650:13-69
+meta-data#UMENG_APPKEY
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:656:9-659:21
+	android:value
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:658:13-53
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:657:13-40
+service#com.baidu.location.f
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:665:9-673:19
+	android:enabled
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:667:13-35
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:668:13-38
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:666:13-48
+intent-filter#com.baidu.location.service_v2.2
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:669:13-672:29
+action#com.baidu.location.service_v2.2
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:670:17-671:26
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:670:25-71
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:677:9-680:15
+	android:value
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:679:13-53
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:678:13-52
+meta-data#api_key
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:682:9-86
+	android:value
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:682:43-83
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:682:20-42
+activity#com.baidu.android.pushservice.richmedia.MediaViewActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:686:9-690:20
+	android:label
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:689:9-42
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:688:9-59
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:687:9-81
+activity#com.baidu.android.pushservice.richmedia.MediaListActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:691:9-696:20
+	android:label
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:694:9-42
+	android:launchMode
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:695:9-40
+	android:configChanges
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:693:9-59
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:692:9-81
+receiver#com.jcl.android.push.MyPushMessageReceiver
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:698:9-706:20
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:698:19-76
+intent-filter#com.baidu.android.pushservice.action.MESSAGE+com.baidu.android.pushservice.action.RECEIVE+com.baidu.android.pushservice.action.notification.CLICK
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:699:10-705:26
+action#com.baidu.android.pushservice.action.MESSAGE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:701:10-80
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:701:18-77
+action#com.baidu.android.pushservice.action.RECEIVE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:703:10-80
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:703:18-77
+action#com.baidu.android.pushservice.action.notification.CLICK
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:704:10-91
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:704:18-88
+receiver#com.baidu.android.pushservice.PushServiceReceiver
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:708:9-721:20
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:709:10-41
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:708:19-83
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.baidu.android.pushservice.action.media.CLICK+com.baidu.android.pushservice.action.notification.SHOW
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:710:10-720:26
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:711:10-72
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:711:18-69
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:712:10-72
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:712:18-69
+action#com.baidu.android.pushservice.action.notification.SHOW
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:713:10-90
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:713:18-87
+action#com.baidu.android.pushservice.action.media.CLICK
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:714:10-84
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:714:18-81
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:716:10-71
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:716:18-68
+action#android.intent.action.USER_PRESENT
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:717:10-70
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:717:18-67
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:718:10-80
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:718:18-77
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:719:10-83
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:719:18-80
+receiver#com.baidu.android.pushservice.RegistrationReceiver
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:722:9-732:20
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:723:10-41
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:722:19-84
+intent-filter#com.baidu.android.pushservice.action.BIND_SYNC+com.baidu.android.pushservice.action.METHOD
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:724:10-727:26
+action#com.baidu.android.pushservice.action.METHOD
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:725:10-79
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:725:18-76
+action#com.baidu.android.pushservice.action.BIND_SYNC
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:726:10-82
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:726:18-79
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:728:10-731:26
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:729:10-72
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:729:18-70
+service#com.baidu.android.pushservice.PushService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:733:9-740:19
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:736:10-41
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:735:10-33
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:734:10-66
+intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:737:10-739:26
+action#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:738:10-84
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:738:18-82
+service#com.baidu.android.pushservice.CommandService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:742:9-744:36
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:744:10-33
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:743:10-69
+receiver#com.jcl.android.BroadcastReceiver.MyReceiver
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:747:9-751:14
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:747:19-63
+intent-filter#LC_ON
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:748:10-750:26
+action#LC_ON
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:749:14-45
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:749:22-42
+meta-data#PUSH_APPID
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:756:9-758:53
+	android:value
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:758:13-51
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:757:13-38
+meta-data#PUSH_APPKEY
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:759:9-761:53
+	android:value
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:761:13-51
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:760:13-39
+meta-data#PUSH_APPSECRET
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:762:9-764:53
+	android:value
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:764:13-51
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:763:13-42
+service#com.igexin.sdk.PushService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:767:9-775:19
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:771:13-43
+	android:label
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:770:13-47
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:769:13-36
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:768:13-54
+intent-filter#com.igexin.sdk.action.service.message
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:772:13-774:29
+action#com.igexin.sdk.action.service.message
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:773:17-79
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:773:25-77
+receiver#com.igexin.sdk.PushReceiver
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:777:9-788:20
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:778:13-55
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:779:13-787:29
+action#com.igexin.sdk.action.refreshls
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:783:17-73
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:783:25-71
+activity#com.igexin.sdk.PushActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:790:9-796:74
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:794:13-43
+	android:excludeFromRecents
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:792:13-46
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:793:13-37
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:796:13-72
+	android:taskAffinity
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:795:13-67
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:791:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:798:9-804:74
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:802:13-43
+	android:excludeFromRecents
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:800:13-46
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:801:13-36
+	android:theme
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:804:13-72
+	android:taskAffinity
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:803:13-67
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:799:13-52
+service#com.igexin.download.DownloadService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:806:10-808:45
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:808:13-43
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:807:13-63
+receiver#com.igexin.download.DownloadReceiver
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:810:9-815:20
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:811:13-64
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:812:13-814:29
+provider#com.igexin.download.DownloadProvider
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:817:9-821:45
+	android:authorities
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:819:13-60
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:821:13-43
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:820:13-36
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:818:13-64
+service#com.jcl.android.getui.DemoIntentService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:823:9-59
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:823:18-57
+service#com.jcl.android.getui.DemoPushService
+ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:825:9-830:19
+	android:process
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:829:13-43
+	android:label
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:828:13-40
+	android:exported
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:827:13-36
+	android:name
+		ADDED from E:\MyProject\MyApplication\JCL\src\main\AndroidManifest.xml:826:13-50

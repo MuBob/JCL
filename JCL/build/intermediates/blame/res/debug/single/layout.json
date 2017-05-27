@@ -1,0 +1,662 @@
+[
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mywallet.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_mywallet.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_calendar.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_calendar.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_show_map.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_show_map.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_advice.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_advice.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_usercenter.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_usercenter.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_composer_header.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_company.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_company.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_addcar.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_addcar.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_push_info.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_push_info.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_zhuanxian.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_public_zhuanxian.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_public_zhuanxian.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_public_zhuanxian.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_strorage.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_strorage.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_share.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_share.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_other.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_public_other.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_password.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_password.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\view_spinner.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\view_spinner.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_message.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_message.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_logisticslist.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_logisticslist.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popu_home_tips.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popu_home_tips.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_authenticationl_company.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_authenticationl_company.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tools.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_tools.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\guide.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\guide.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_view.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_at_view.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_pay_online.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_pay_online.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my_collect.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_my_collect.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_find_logistic.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_find_logistic.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_public_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_evalute.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_evalute.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_item.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_cars_order.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_cars_order.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_point.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_point.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_bind_select_dialog.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_setting_public_goods_more.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_setting_public_goods_more.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_public.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_public.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_storage.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_storage.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_chongzhi_online.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_chongzhi_online.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_logistics_circle.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_logistics_circle.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_post_share.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_findstorage_by_list.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_findstorage_by_list.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find_kuaixun.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_find_kuaixun.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_public_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_setting_public_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_personal.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_register_personal.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_date_picker.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_date_picker.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycar.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_mycar.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_four.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\what_new_four.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_public_others.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_setting_public_others.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_others.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_others.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\child_public_zx_zhongzhuan.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\child_public_zx_zhongzhuan.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_find_car.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_find_car.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bund_alipay.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_bund_alipay.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_order.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_order.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_kuaixun.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_public_kuaixun.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_offer_price.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_offer_price.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_setting_public_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_setting_public_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\item_settingcar.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\item_settingcar.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_baojia_online.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_baojia_online.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list_item.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_setting_public_carsorder.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_setting_public_carsorder.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_public_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_public_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quick_public_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_quick_public_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_public.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_public.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_setting_public_goodsorder.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_setting_public_goodsorder.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_addhuizhidan.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_addhuizhidan.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_vouch_record.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_vouch_record.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_distribution.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_distribution.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_item_simple.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mapwebview.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_mapwebview.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_huizhidan_info.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_huizhidan_info.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\child_public_zx_zhida.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\child_public_zx_zhida.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blog.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_blog.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragmen_offerprice.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragmen_offerprice.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_publish_car.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_publish_car.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_city_picker.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_city_picker.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_findothers_by_list.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_findothers_by_list.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find_evalutes.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_find_evalutes.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_goods_order.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_goods_order.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\item_car_manage_list.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\item_car_manage_list.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_secure.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_secure.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_evalutes.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_evalutes.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find_by_nearby.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_find_by_nearby.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_addgoods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_addgoods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\child_public_zx_jingting.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\child_public_zx_jingting.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_webview.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_webview.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\child_public_buchong.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\child_public_buchong.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_other.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_other.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_one.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\what_new_one.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_find_storage.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_find_storage.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_get_lat_lot.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_get_lat_lot.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_three.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\what_new_three.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_collect.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_my_collect.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\what_new_two.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\what_new_two.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_company.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_register_company.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tishi.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\layout_tishi.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_goods_manager.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_goods_manager.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find_by_list.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_find_by_list.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_personal.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_detil.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_message_detil.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_public_kuaixun.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_setting_public_kuaixun.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\baiduspeechsynthesizersample.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\baiduspeechsynthesizersample.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_public_zhuanxian.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_setting_public_zhuanxian.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_cars.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_cars.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_overlay.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_public_car.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_public_car.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_find_cheliang.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_find_cheliang.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_trading_record.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_trading_record.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_toolbox.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_toolbox.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offer_online_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_offer_online_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mygoods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_mygoods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_kuaixun.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_kuaixun.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_offer_price.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_offer_price.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_tixian.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\popupwindow_tixian.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_photo.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\dialog_photo.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_public_cars.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_setting_public_cars.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_service.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_user_service.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_car.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_car.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_selector_dialog.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_setting_contacts.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_setting_contacts.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\notification_item.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\notification_item.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_daishou.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_daishou.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chongzhi_record.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_chongzhi_record.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_kuaixun.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_kuaixun.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evalute.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_evalute.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find_by_dedicated_line.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_find_by_dedicated_line.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vouchs.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_vouchs.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_find_distribution.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_find_distribution.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tool_car_size.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_tool_car_size.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_find_goods.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_find_goods.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_contact.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_contact.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_zxing.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_my_zxing.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_other.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_other.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_city_picker.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_city_picker.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_specialcar.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_specialcar.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\child_public_zengzhi.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\child_public_zengzhi.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_authenticationl_personal.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_authenticationl_personal.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_kuaixun.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_kuaixun.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\getui_notification.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\getui_notification.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_pass.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_modify_pass.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_logisitics_circle.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_setting_logisitics_circle.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail_find.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_detail_find.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_zhuanxian.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_detail_zhuanxian.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_findlogistics_by_list.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\fragment_findlogistics_by_list.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_logistics.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_find_logistics.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_find_lines.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\listitem_find_lines.xml"
+    },
+    {
+        "merged": "E:\\MyProject\\MyApplication\\JCL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_addcontacts.xml",
+        "source": "E:\\MyProject\\MyApplication\\JCL\\src\\main\\res\\layout\\activity_addcontacts.xml"
+    }
+]

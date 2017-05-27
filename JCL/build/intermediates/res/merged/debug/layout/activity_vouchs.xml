@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+         navigation:right_visible="false"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:tv_title="担保交易记录" />
+    
+    
+    <com.jcl.android.base.BaseSwipeRefreshLayout
+        android:id="@+id/sr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/main_bg"
+        android:fadingEdge="none" >
+
+       <ListView 
+        android:id="@+id/lv_vouchs"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:divider="@color/transparent"
+        android:dividerHeight="8dp"
+        android:paddingTop="10dp"
+        android:clipToPadding="false"
+        android:layout_weight="1"/>
+    </com.jcl.android.base.BaseSwipeRefreshLayout>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res/com.jcl.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <com.jcl.android.view.MyUINavigationView
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation"
+        android:gravity="center"
+        navigation:left_drawable="@drawable/btn_back_click"
+        navigation:right_visible="false"
+        navigation:tv_title="修改密码" />
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="原  密  码"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_old_password"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:inputType="textPassword"
+                    android:textColor="@color/tab_text"
+                    android:singleLine="true"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="新  密  码"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:inputType="textPassword"
+                    android:textColor="@color/tab_text"
+                    android:singleLine="true"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="#F55834" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="密码确认"
+                    android:textColor="@color/tab_text"
+                    android:textSize="@dimen/h5" />
+
+                <EditText
+                    android:id="@+id/edt_password_repeat"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_content"
+                    android:inputType="textPassword"
+                    android:textColor="@color/tab_text"
+                    android:singleLine="true"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_post"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/btn_register"
+                    android:text="提  交"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
