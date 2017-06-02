@@ -1,5 +1,7 @@
 package com.jcl.android.activity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -19,6 +21,7 @@ import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
+import com.jcl.android.BuildConfig;
 import com.jcl.android.R;
 import com.jcl.android.SP;
 import com.jcl.android.application.JCLApplication;
@@ -70,6 +73,27 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 		tv_savePwd.setOnClickListener(this);
 		btn_login.setOnClickListener(this);
 		tv_find_password.setOnClickListener(this);
+
+		if(BuildConfig.DEBUG){
+			AlertDialog.Builder builder=new AlertDialog.Builder(this);
+			builder.setMessage("Debug测试账号登陆");
+			builder.setPositiveButton("账号一", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					edt_loginName.setText("15315320776");
+					edt_loginPassword.setText("123456");
+				}
+			});
+			builder.setNegativeButton("账号二", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					edt_loginName.setText("13585717689");
+					edt_loginPassword.setText("000000");
+				}
+			});
+			builder.setCancelable(false);
+			builder.show();
+		}
 	}
 
 	private void setListener()
@@ -173,7 +197,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 								SharePerfUtil.saveLoginName(edt_loginName.getText().toString());
 								SharePerfUtil.saveLoginPwd(edt_loginPassword.getText().toString());
 								Toast.makeText(LoginActivity.this,
-										loginBean.getMsg(), 1000).show();
+										loginBean.getMsg(), Toast.LENGTH_SHORT).show();
 								
 								if (loginBean.getData().getSubmittype().equals("0") &&
 										Utils.isEmpty(loginBean.getData().getName())) {
@@ -190,10 +214,10 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 								finish();
 							} else {
 								Toast.makeText(LoginActivity.this,
-										loginBean.getMsg(), 1000).show();
+										loginBean.getMsg(), Toast.LENGTH_SHORT).show();
 							}
 						} else {
-							Toast.makeText(LoginActivity.this, "暂无数据！", 1000)
+							Toast.makeText(LoginActivity.this, "暂无数据！", Toast.LENGTH_SHORT)
 									.show();
 						}
 					}
@@ -202,7 +226,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 					public void onErrorResponse(VolleyError arg0) {
 						// TODO Auto-generated method stub
 						LogUtil.logWrite("CHECK——code ==>", arg0.getMessage());
-						Toast.makeText(LoginActivity.this, "网络异常", 1000)
+						Toast.makeText(LoginActivity.this, "网络异常", Toast.LENGTH_SHORT)
 								.show();
 					}
 				}));
