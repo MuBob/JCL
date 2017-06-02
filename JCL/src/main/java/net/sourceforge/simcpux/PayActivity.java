@@ -34,7 +34,6 @@ public class PayActivity extends Activity {
 				String url = "http://wxpay.weixin.qq.com/pub_v2/app/app_pay.php?plat=android";
 				Button payBtn = (Button) findViewById(R.id.appay_btn);
 				payBtn.setEnabled(false);
-				Toast.makeText(PayActivity.this, "��ȡ������...", Toast.LENGTH_SHORT).show();
 		        try{
 					byte[] buf = Util.httpGet(url);
 					if (buf != null && buf.length > 0) {
