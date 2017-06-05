@@ -1,11 +1,5 @@
 package com.jcl.android.activity;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -14,7 +8,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -45,6 +38,9 @@ import com.jcl.android.utils.Utils;
 import com.jcl.android.view.MyToast;
 import com.jcl.android.view.MyUINavigationView;
 import com.jcl.android.view.WhSpinner;
+
+import java.util.ArrayList;
+import java.util.List;
 /**
  * 快捷发布
  * @author msz
@@ -56,7 +52,7 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 	private CityPickerPopupwindow cityPickerPopupwindow;
 	private DatePickerPopupwindow datePickerPopupwindow;
 
-	private TextView tv_chufadi, tv_mudidi, tv_fahuoshijian_left,tv_fahuoshijian_right,tv_chexing;
+	private TextView tv_chufadi, tv_mudidi, tv_fahuoshijian_left,tv_fahuoshijian_right,tv_chexing, tv_chufadi_xiangxi, tv_mudidi_xiangxi;
 	private WhSpinner ws_huowuleixing,ws_pingtaixuanze,ws_chechang,ws_jinjichendu,ws_dun;
 
 	private RadioButton cb_paohuo, cb_zhonghuo;
@@ -86,7 +82,7 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
     private StringBuffer chexing;//车型  1选中  0未选中	
     private String [] cartype = null;
     private boolean isSelect;
-    private CheckBox cb_carlength,cb_beizhu;
+    private CheckBox cb_carlength,cb_beizhu, cb_shuaxin_dingshi;
     private String iscarlengthabove,ishowremark;
     private Bundle bundle;
     private int type;
@@ -196,12 +192,15 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 		cb_zhonghuo = (RadioButton) findViewById(R.id.cb_zhonghuo);
 		btn_public = (Button) findViewById(R.id.btn_public);
 		btn_quick_public = (Button) findViewById(R.id.btn_quick_public);
-		
+
+		tv_chufadi_xiangxi=(TextView)findViewById(R.id.tv_chufadi_xiangxi);
+		tv_mudidi_xiangxi=(TextView)findViewById(R.id.tv_mudidi_xiangxi);
 		tv_fahuoren = (EditText) findViewById(R.id.tv_fahuoren);
 		tv_fahuoren_tel = (EditText) findViewById(R.id.tv_fahuoren_tel);
 		tv_fahuoren_tel.setText(SharePerfUtil.getLoginName());
 		tv_fahuoren.setText(SharePerfUtil.getLinkMan());
-		
+
+		cb_shuaxin_dingshi=(CheckBox)findViewById(R.id.cb_shuaxin_dingshi);
 		cb_carlength = (CheckBox) findViewById(R.id.cb_carlength);
 		cb_beizhu = (CheckBox) findViewById(R.id.cb_beizhu);
 		cb_carlength.setOnCheckedChangeListener(new CheckBox.OnCheckedChangeListener() {
