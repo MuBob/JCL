@@ -251,69 +251,8 @@ public class MultiChooseSpinner extends LinearLayout {
             setContentText(item);
         }
 
-//        Set<Integer> integers = selects.keySet();
-//        Iterator<Integer> iterator = integers.iterator();
-//        while (iterator.hasNext()){
-//            Integer next = iterator.next();
-//            if(selects.get(next)){
-//                View view = adapter.getView(next, null, null);
-//                Object tag = view.getTag();
-//                Log.i("TAG", "MultiChooseSpinner.setSelectedPositions:2 获取到tag");
-//                if(tag instanceof TagBaseAdapter.ViewHolder){
-//                    Log.i("TAG", "MultiChooseSpinner.setSelectedPositions:2 tag是ViewHolder");
-//                    TagBaseAdapter.ViewHolder holder = (TagBaseAdapter.ViewHolder)tag;
-//                    holder.tagBtn.setSelected(true);
-//                }
-//            }
-//        }
-
-//        if(adapter!=null){
-//            adapter.notifyDataSetChanged();
-//        }
     }
 
-//    public  Map<Integer, Boolean> getSelectPositions(List<? extends IGetMainKeyValue> selectedList) {
-//        if (data == null || data.size() == 0) return null;
-//        if (selectedList==null||selectedList.size()==0)return null;
-//
-//        Map<Object, Object> selectedMap = new HashMap<>();
-//        for (IGetMainKeyValue onevalue : selectedList) {
-//            Log.d(getClass().getName(), "getSelectPositions: onevalue"+ JsonUtil.toJson(onevalue));
-//            selectedMap.put(onevalue.getMainKeyValue(), onevalue);
-//        }
-//        Map<Integer, Boolean> selectsBooleanMap = new HashMap<>();
-//        for (int i = 0; i < data.size(); i++) {
-//            IGetMainKeyValue dataItem = (IGetMainKeyValue) data.get(i);
-//            Log.d(getClass().getName(), "getSelectPositions: dataItem"+ JsonUtil.toJson(dataItem));
-//            boolean flag=selectedMap.containsKey(dataItem.getMainKeyValue());
-//            Log.d(getClass().getName(), "getSelectPositions: flag"+ flag);
-//            selectsBooleanMap.put(Integer.valueOf(i),Boolean.valueOf(flag));
-//        }
-//
-//        return selectsBooleanMap;
-//    }
-//        if (data == null || data.size() == 0) return null;
-//        if (selectedList==null||selectedList.size()==0)return null;
-//
-//        Map<Object, Object> selectedMap = new HashMap<>();
-//        for (IGetMainKeyValue onevalue : selectedList) {
-//            Log.d(getClass().getName(), "getSelectPositions: onevalue"+ JsonUtil.toJson(onevalue));
-//            selectedMap.put(onevalue.getMainKeyValue(), onevalue);
-//        }
-//        List<Integer> selectsBooleanList = new ArrayList<>();
-//        for (int i = 0; i < data.size(); i++) {
-//            IGetMainKeyValue dataItem = (IGetMainKeyValue) data.get(i);
-//            Log.d(getClass().getName(), "getSelectPositions: dataItem"+ JsonUtil.toJson(dataItem));
-//            boolean flag=selectedMap.containsKey(dataItem.getMainKeyValue());
-//            Log.d(getClass().getName(), "getSelectPositions: flag"+ flag);
-//            if (flag){
-//                selectsBooleanList.add(i);
-//            }
-//
-//        }
-//
-//        return selectsBooleanList;
-//    }
 
     private List<Integer> getSelectPositions(Map<Integer, Boolean> itemSelection) {
         Iterator<Integer> iterator = itemSelection.keySet().iterator();

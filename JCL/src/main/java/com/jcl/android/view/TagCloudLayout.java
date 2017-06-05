@@ -5,7 +5,6 @@ import android.database.DataSetObserver;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.RadioButton;
 
 import com.jcl.android.adapter.TagBaseAdapter;
@@ -36,7 +35,7 @@ public class TagCloudLayout extends ViewGroup {
 
     private int mLineSpacing;
     private int mTagSpacing;
-    private BaseAdapter mAdapter;
+    private TagBaseAdapter mAdapter;
     private TagItemClickListener mListener;
     private TagItemSelectedListener selectedListener;
     private DataChangeObserver mObserver;
@@ -204,7 +203,7 @@ public class TagCloudLayout extends ViewGroup {
         return new LayoutParams(this.getContext(), attrs);
     }
 
-    public void setAdapter(BaseAdapter adapter) {
+    public void setAdapter(TagBaseAdapter adapter) {
 //        if (mAdapter == null){
         mAdapter = adapter;
         if (mObserver == null) {
@@ -213,6 +212,10 @@ public class TagCloudLayout extends ViewGroup {
         }
         drawLayout();
 //        }
+    }
+
+    public TagBaseAdapter getAdapter(){
+        return mAdapter;
     }
 
     private void initSelections() {

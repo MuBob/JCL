@@ -25,6 +25,7 @@ import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.google.gson.Gson;
 import com.jcl.android.R;
+import com.jcl.android.adapter.TagBaseAdapter;
 import com.jcl.android.application.JCLApplication;
 import com.jcl.android.base.BaseActivity;
 import com.jcl.android.bean.BaseBean;
@@ -37,10 +38,14 @@ import com.jcl.android.utils.SharePerfUtil;
 import com.jcl.android.utils.Utils;
 import com.jcl.android.view.MyToast;
 import com.jcl.android.view.MyUINavigationView;
+import com.jcl.android.view.TagCloudLayout;
 import com.jcl.android.view.WhSpinner;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+
 /**
  * 快捷发布
  * @author msz
@@ -54,6 +59,7 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 
 	private TextView tv_chufadi, tv_mudidi, tv_fahuoshijian_left,tv_fahuoshijian_right,tv_chexing, tv_chufadi_xiangxi, tv_mudidi_xiangxi;
 	private WhSpinner ws_huowuleixing,ws_pingtaixuanze,ws_chechang,ws_jinjichendu,ws_dun;
+	private TagCloudLayout tag_pingtaixuanze;
 
 	private RadioButton cb_paohuo, cb_zhonghuo;
 	private EditText et_car_num,et_teshubeizhu,tv_fahuoren, tv_fahuoren_tel,et_price,et_huowuname;
@@ -71,7 +77,8 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 	private List<WhSpinner.Item> jinjichendu;
 	private List<WhSpinner.Item> dunlist;
 	private MyUINavigationView uINavigationView;
-	
+
+	private List<String> listPingTaiXuanZe;
 	private List<String> listcarlength;
 	private String title = "选择";
 	private Builder builder = null;
@@ -88,6 +95,7 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
     private int type;
 
 	public void initWhSpinnerData() {
+		listPingTaiXuanZe=new ArrayList<>();
 		huowuleixing = new ArrayList<WhSpinner.Item>();
 		chechang = new ArrayList<WhSpinner.Item>();
 		pingtaixuanze = new ArrayList<WhSpinner.Item>();
@@ -186,6 +194,7 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 		et_huowuzhongliang = (EditText) findViewById(R.id.et_huowuzhongliang);
 		et_huowutiji = (EditText) findViewById(R.id.et_huowutiji);
 		et_saying = (EditText) findViewById(R.id.et_saying);
+		tag_pingtaixuanze = (TagCloudLayout) findViewById(R.id.tag_pingtaixuanze);
 
 		et_car_num = (EditText) findViewById(R.id.et_car_num);
 		cb_paohuo = (RadioButton) findViewById(R.id.cb_paohuo);
@@ -307,8 +316,31 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 		btn_public.setOnClickListener(this);
 		btn_quick_public.setOnClickListener(this);
 		tv_chexing.setOnClickListener(this);
-	}
 
+		TagBaseAdapter adapter=new TagBaseAdapter(this, listPingTaiXuanZe);
+		tag_pingtaixuanze.setAdapter(adapter);
+		tag_pingtaixuanze.setItemSelectedListener(new TagCloudLayout.TagItemSelectedListener() {
+			@Override
+			public void itemSelected(RadioButton radioButton, Map<Integer, Boolean> itemSelection) {
+				selectPositions.clear();
+				selectPositions.addAll(getSelectPositions(itemSelection));
+			}
+		});
+	}
+	private List<Integer> selectPositions;
+
+	private List<Integer> getSelectPositions(Map<Integer, Boolean> itemSelection) {
+		Iterator<Integer> iterator = itemSelection.keySet().iterator();
+		List<Integer> selects = new ArrayList<>();
+		while (iterator.hasNext()) {
+			Integer position = iterator.next();
+			boolean isSelect = itemSelection.get(position);
+			if (isSelect) {
+				selects.add(position);
+			}
+		}
+		return selects;
+	}
 	protected Dialog onCreateDialog(int type){
 		cartypeitems = getResources().getStringArray(R.array.chexing);
 		Dialog dialog=null;

@@ -66,7 +66,12 @@
                     android:gravity="center_vertical"
                     android:text=""
                     android:textColor="@color/tab_text"
+                    android:visibility="gone"
                     android:textSize="@dimen/h5"/>
+                <com.jcl.android.view.TagCloudLayout
+                    android:id="@+id/tag_pingtaixuanze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
             </LinearLayout>
 
             <LinearLayout
