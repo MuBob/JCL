@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/tag_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tag_view"
+        android:button="@null"
+        android:gravity="center"
+        android:minHeight="30dp"
+        android:minWidth="40dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="示例标签"
+        android:textColor="@color/blue"
+        android:textSize="14sp">
+    </RadioButton>
+</RelativeLayout>

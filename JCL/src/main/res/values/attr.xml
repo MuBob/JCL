@@ -17,5 +17,31 @@
         <attr name="border_thickness" format="dimension" />
         <attr name="border_color" format="color" />
     </declare-styleable>
+    <declare-styleable name="TagCloudLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="tagSpacing" format="dimension" />
+        <!-- 是否是固定布局 -->
+        <attr name="isFixed" format="boolean" />
+        <attr name="columnSize" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MultiChooseSpinner">
+        <attr name="titleShow_MultiChooseSpinner" format="boolean"/>
+        <attr name="titleWidth_MultiChooseSpinner" format="dimension"/>
+        <attr name="titleLeftMargin_MultiChooseSpinner" format="dimension"/>
+        <attr name="titleRightMargin_MultiChooseSpinner" format="dimension"/>
+        <attr name="line1Height_MultiChooseSpinner" format="dimension"/>
+        <attr name="titleTextSize_MultiChooseSpinner" format="dimension"/>
+        <attr name="contentTextSize_MultiChooseSpinner" format="dimension"/>
+        <attr name="titleTextColor_MultiChooseSpinner" format="color"/>
+        <attr name="contentTextColor_MultiChooseSpinner" format="color"/>
+        <attr name="titleText_MultiChooseSpinner" format="string"/>
+        <attr name="contentText_MultiChooseSpinner" format="string"/>
+        <attr name="contentLineMargin_MultiChooseSpinner" format="dimension"/>
+        <attr name="contentLineShow_MultiChooseSpinner" format="boolean"/>
+        <attr name="maxLength_MultiChooseSpinner" format="integer"/>
+        <attr name="line2LayoutAlwaysShow_MultiChooseSpinner" format="boolean"/>
+        <attr name="clickNullPrompt_MultiChooseSpinner" format="string"/>
+        <attr name="defaultContentText_MultiChooseSpinner" format="string"/>
+    </declare-styleable>
 
 </resources>

@@ -26,4 +26,15 @@
     <dimen name="ConversationItemHeight">58dp</dimen>
     <dimen name="LargeAvatarSize">56dp</dimen>
 
+    <dimen name="line1_height">35dp</dimen>
+    <integer name="list_raw">8</integer>
+    <integer name="max_length">500</integer>
+    <dimen name="list_per_height">40dp</dimen>
+    <dimen name="item_margin_horizontal">16dp</dimen>
+    <dimen name="content_margin_left">104dp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+    <dimen name="title_text_size_small">13sp</dimen>
+    <dimen name="content_text_size">14sp</dimen>
+    <dimen name="content_text_size_normal">12sp</dimen>
+    <dimen name="content_line_margin">8dp</dimen>
 </resources>
