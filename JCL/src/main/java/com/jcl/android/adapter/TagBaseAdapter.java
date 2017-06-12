@@ -27,7 +27,7 @@ public class TagBaseAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return mList.size();
+        return mList==null?0:mList.size();
     }
 
     @Override
@@ -40,6 +40,7 @@ public class TagBaseAdapter extends BaseAdapter {
         return position;
     }
 
+    private static final String TAG = "TagBaseAdapter";
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
@@ -50,8 +51,7 @@ public class TagBaseAdapter extends BaseAdapter {
         }else{
             holder = (ViewHolder)convertView.getTag();
         }
-        final String text = getItem(position);
-        holder.tagBtn.setText(text);
+        holder.tagBtn.setText(getItem(position));
         holder.tagBtn.setTag(position);
         return convertView;
     }

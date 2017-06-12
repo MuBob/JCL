@@ -20,6 +20,7 @@ public class TagCloudConfiguration {
     private int tagSpacing;
     private int columnSize;
     private boolean isFixed;
+    private int maxSelectItems;
 
     public TagCloudConfiguration(Context context, AttributeSet attrs){
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TagCloudLayout);
@@ -28,6 +29,7 @@ public class TagCloudConfiguration {
             tagSpacing = a.getDimensionPixelSize(R.styleable.TagCloudLayout_tagSpacing, DEFAULT_TAG_SPACING);
             columnSize = a.getInteger(R.styleable.TagCloudLayout_columnSize, DEFAULT_FIXED_COLUMN_SIZE);
             isFixed = a.getBoolean(R.styleable.TagCloudLayout_isFixed,false);
+            maxSelectItems = a.getInteger(R.styleable.TagCloudLayout_maxSelectItems, 10);
         } finally {
             a.recycle();
         }
@@ -61,7 +63,15 @@ public class TagCloudConfiguration {
         return isFixed;
     }
 
-    public void setIsFixed(boolean isFixed) {
-        this.isFixed = isFixed;
+    public void setFixed(boolean fixed) {
+        isFixed = fixed;
+    }
+
+    public int getMaxSelectItems() {
+        return maxSelectItems;
+    }
+
+    public void setMaxSelectItems(int maxSelectItems) {
+        this.maxSelectItems = maxSelectItems;
     }
 }

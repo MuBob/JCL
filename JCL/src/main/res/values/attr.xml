@@ -23,6 +23,7 @@
         <!-- 是否是固定布局 -->
         <attr name="isFixed" format="boolean" />
         <attr name="columnSize" format="integer" />
+        <attr name="maxSelectItems" format="integer" />
     </declare-styleable>
     <declare-styleable name="MultiChooseSpinner">
         <attr name="titleShow_MultiChooseSpinner" format="boolean"/>

@@ -71,7 +71,7 @@ public class WXPayUtil {
         params.put("out_trade_no", out_trade_no);
         params.put("total_fee", String.valueOf(total_fee));
         params.put("spbill_create_ip", ip);
-        params.put("notify_url", "http://www.weixin.qq.com/wxpay/pay.php");
+        params.put("notify_url", "http://localhost:8081/hsdata/weixin");
         params.put("trade_type", "APP");
         params.put("sign",createSign("UTF-8",params));
         String url=createUrl(params);

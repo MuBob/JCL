@@ -3,6 +3,7 @@ package com.jcl.android.view;
 import android.content.Context;
 import android.database.DataSetObserver;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
@@ -56,6 +57,7 @@ public class TagCloudLayout extends ViewGroup {
         mLineSpacing = config.getLineSpacing();
         mTagSpacing = config.getTagSpacing();
         mItemSelection = new HashMap<>();
+        setMaxLength(config.getMaxSelectItems());
     }
 
     public void setItemSelection(List<Integer> selections) {
@@ -74,6 +76,7 @@ public class TagCloudLayout extends ViewGroup {
         drawLayout();
     }
 
+    private static final String TAG = "TagCloudLayout";
     private void drawLayout() {
 //        Log.i("TAG", "TagCloudLayout.drawLayout: childCountBefore=" + getChildCount());
         this.removeAllViews();
@@ -95,26 +98,36 @@ public class TagCloudLayout extends ViewGroup {
 //                radioButton.setTag(false);
 //                Log.i("TAG", "TagCloudLayout.drawLayout: radioButton="+radioButton);
 //                Log.i("TAG", "TagCloudLayout.drawLayout: mItemSelection=" + mItemSelection + "position=" + position);
-                Boolean selected = mItemSelection.get(position);
-                radioButton.setSelected(selected);
-                if(selected){
-                    ++selectNum;
+                Log.i("TAG", "TagCloudLayout.drawLayout: selection=" + mItemSelection + ", position=" + position);
+                if (mItemSelection.containsKey(position)) {
+                    boolean selected = mItemSelection.get(position);
+                    radioButton.setSelected(selected);
+                    if (selected) {
+                        ++selectNum;
+                    }
                 }
 //                Log.i("TAG", "TagCloudLayout.drawLayout: 允许选择最大长度"+maxLength+", 当前以选中"+selectNum);
                 radioButton.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         RadioButton radioButton = (RadioButton) view;
-//                        Log.i("TAG", "TagCloudLayout.onClick: radioButton.tag=" + radioButton.getTag());
                         int position = (int) radioButton.getTag();
-                        Boolean isSelect = !mItemSelection.get(position);
-                        if (isSelect && selectNum >= maxLength) {
-                            return;
-                        } else if (!isSelect && selectNum < 0) {
-                            return;
+                        Log.i("TAG", "TagCloudLayout.onClick: radioButton.tag=" + position);
+                        boolean isSelect;
+                        if (mItemSelection.containsKey(position)) {
+                            isSelect = !mItemSelection.get(position);
+                            Log.i(TAG, "TagCloudLayout.onClick: p="+position+", select="+isSelect);
+                            if (isSelect && selectNum >= maxLength) {
+                                return;
+                            } else if (!isSelect && selectNum < 0) {
+                                return;
+                            }
+                        }else {
+                            isSelect=true;
                         }
                         mItemSelection.put(position, isSelect);
                         radioButton.setSelected(isSelect);
+                        Log.i(TAG, "TagCloudLayout.onClick: radio.select?="+radioButton.isSelected());
                         if (isSelect) {
                             ++selectNum;
                         } else {
@@ -214,7 +227,7 @@ public class TagCloudLayout extends ViewGroup {
 //        }
     }
 
-    public TagBaseAdapter getAdapter(){
+    public TagBaseAdapter getAdapter() {
         return mAdapter;
     }
 
@@ -250,7 +263,7 @@ public class TagCloudLayout extends ViewGroup {
         @Override
         public void onChanged() {
 //            Log.i("TAG", "DataChangeObserver.onChanged: adapter.size=" + mAdapter.getCount());
-            if(mAdapter!=null&&mAdapter.getCount()>0){
+            if (mAdapter != null && mAdapter.getCount() > 0) {
                 initSelections();
             }
             TagCloudLayout.this.drawLayout();
