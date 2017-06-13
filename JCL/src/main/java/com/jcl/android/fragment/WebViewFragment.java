@@ -2,6 +2,7 @@ package com.jcl.android.fragment;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -43,10 +44,12 @@ public class WebViewFragment extends BaseFragment {
 		return root;
 	}
 
+	private static final String TAG = "WebViewFragment";
 	public static WebViewFragment newInstance(String url) {
 		WebViewFragment f = new WebViewFragment();
 		Bundle args = new Bundle();
 		args.putString("webUrl", url);
+		Log.i(TAG, "WebViewFragment.newInstance: url="+url);
 		f.setArguments(args);
 		return f;
 	}
@@ -80,8 +83,12 @@ public class WebViewFragment extends BaseFragment {
 
 			@Override
 			public boolean shouldOverrideUrlLoading(WebView view, String url) {
-
-				view.loadUrl(url); // 在当前的webview中跳转到新的url
+                Log.i(TAG, "WebViewFragment.shouldOverrideUrlLoading: url="+url);
+				if(url!=null&&url.startsWith("baidumap:")){
+				    
+				}else {
+					view.loadUrl(url); // 在当前的webview中跳转到新的url
+				}
 
 				return true;
 			}
@@ -91,7 +98,8 @@ public class WebViewFragment extends BaseFragment {
 			public void onGeolocationPermissionsShowPrompt(String origin,
 					GeolocationPermissions.Callback callback) {
 				callback.invoke(origin, true, false);
-				super.onGeolocationPermissionsShowPrompt(origin, callback);
+                Log.i(TAG, "WebViewFragment.onGeolocationPermissionsShowPrompt: origin="+origin);
+                super.onGeolocationPermissionsShowPrompt(origin, callback);
 			}
 		});
 		wb_faxian.setOnKeyListener(new OnKeyListener() {

@@ -38,7 +38,7 @@ public class WXPayUtil {
     //appId
     public static final String APPID = "wx9d3bff9b821f5917";
     //商户密钥
-    public static final String KEY="";
+    public static final String KEY="CBD8692122D7513CAB8DDDD09966121C";
     public static final String DEVICE_INFO="WEB";
     private IWXAPI msgApi;
     private Context context;

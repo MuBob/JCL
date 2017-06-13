@@ -191,7 +191,7 @@
                     android:textColor="@color/tab_text"
                     android:textSize="@dimen/h5"/>
 
-                <TextView
+                <EditText
                     android:id="@+id/tv_chufadi_xiangxi"
                     android:layout_width="0dp"
                     android:layout_height="35dp"
@@ -269,7 +269,7 @@
                     android:textColor="@color/tab_text"
                     android:textSize="@dimen/h5"/>
 
-                <TextView
+                <EditText
                     android:id="@+id/tv_mudidi_xiangxi"
                     android:layout_width="0dp"
                     android:layout_height="35dp"

@@ -39,3 +39,4 @@ JCL/build/intermediates/transforms/mergeJniLibs/
 JCL/build/tmp/compileDebugAndroidTestJavaWithJavac/
 JCL/build/tmp/compileDebugJavaWithJavac/
 app/
+!/JCL/build/

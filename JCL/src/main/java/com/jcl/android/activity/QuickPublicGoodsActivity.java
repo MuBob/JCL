@@ -58,12 +58,12 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
     private CityPickerPopupwindow cityPickerPopupwindow;
     private DatePickerPopupwindow datePickerPopupwindow;
 
-    private TextView tv_chufadi, tv_mudidi, tv_fahuoshijian_left, tv_fahuoshijian_right, tv_pingtaixuanze, tv_chexing, tv_chufadi_xiangxi, tv_mudidi_xiangxi;
+    private TextView tv_chufadi, tv_mudidi, tv_fahuoshijian_left, tv_fahuoshijian_right, tv_pingtaixuanze, tv_chexing;
     private WhSpinner ws_huowuleixing, ws_pingtaixuanze, ws_chechang, ws_jinjichendu, ws_dun;
     private TagCloudLayout tag_pingtaixuanze;
 
     private RadioButton cb_paohuo, cb_zhonghuo;
-    private EditText et_car_num, et_teshubeizhu, tv_fahuoren, tv_fahuoren_tel, et_price, et_huowuname;
+    private EditText et_car_num, et_teshubeizhu, tv_fahuoren, tv_fahuoren_tel, et_price, et_huowuname, tv_chufadi_xiangxi, tv_mudidi_xiangxi;
     private Button btn_public, btn_quick_public;
     private EditText et_huowuzhongliang, et_huowutiji, et_saying;
 
@@ -213,8 +213,8 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
         btn_public = (Button) findViewById(R.id.btn_public);
         btn_quick_public = (Button) findViewById(R.id.btn_quick_public);
 
-        tv_chufadi_xiangxi = (TextView) findViewById(R.id.tv_chufadi_xiangxi);
-        tv_mudidi_xiangxi = (TextView) findViewById(R.id.tv_mudidi_xiangxi);
+        tv_chufadi_xiangxi = (EditText) findViewById(R.id.tv_chufadi_xiangxi);
+        tv_mudidi_xiangxi = (EditText) findViewById(R.id.tv_mudidi_xiangxi);
         tv_fahuoren = (EditText) findViewById(R.id.tv_fahuoren);
         tv_fahuoren_tel = (EditText) findViewById(R.id.tv_fahuoren_tel);
         tv_fahuoren_tel.setText(SharePerfUtil.getLoginName());
@@ -587,6 +587,12 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
                         tv_fahuoren.getText().toString(), tv_fahuoren_tel.getText().toString(),
                         ishowremark, "1", "0", et_saying.getText().toString(), et_price.getText().toString(),
                         et_huowuname.getText().toString(), ws_dun.getChoiceText());
+                if(tv_chufadi_xiangxi.getText().toString().trim().length()>0){
+                    data.setXiangxiChuFaDi(tv_chufadi_xiangxi.getText().toString().trim());
+                }
+                if(tv_mudidi_xiangxi.getText().toString().trim().length()>0){
+                    data.setXiangxiMuDiDi(tv_mudidi_xiangxi.getText().toString().trim());
+                }
                 String dataJson = new Gson().toJson(data);
                 PublicGoodsRequest publicGoodsRequest = new PublicGoodsRequest(
                         dataJson);
@@ -742,6 +748,9 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
         private String haspricelow;
         private String unit;
 
+        private String xiangxiChuFaDi;
+        private String xiangxiMuDiDi;
+
         public Data(String jjdegree, String startarea, String endarea,
                     String exfhstarttime, String exfhendtime, String hwtype,
                     String pztype, String ptchoose, String cartype,
@@ -797,6 +806,21 @@ public class QuickPublicGoodsActivity extends BaseActivity implements
 
         }
 
+        public String getXiangxiChuFaDi() {
+            return xiangxiChuFaDi;
+        }
+
+        public void setXiangxiChuFaDi(String xiangxiChuFaDi) {
+            this.xiangxiChuFaDi = xiangxiChuFaDi;
+        }
+
+        public String getXiangxiMuDiDi() {
+            return xiangxiMuDiDi;
+        }
+
+        public void setXiangxiMuDiDi(String xiangxiMuDiDi) {
+            this.xiangxiMuDiDi = xiangxiMuDiDi;
+        }
     }
 
 }
