@@ -89,7 +89,6 @@ public class WebViewFragment extends BaseFragment {
 				}else {
 					view.loadUrl(url); // 在当前的webview中跳转到新的url
 				}
-
 				return true;
 			}
 		});
