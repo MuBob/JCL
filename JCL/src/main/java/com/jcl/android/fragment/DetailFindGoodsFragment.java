@@ -1,7 +1,5 @@
 package com.jcl.android.fragment;
 
-import java.util.ArrayList;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -32,12 +30,16 @@ import com.jcl.android.bean.DetailFindGoodsBean;
 import com.jcl.android.net.GsonRequest;
 import com.jcl.android.net.ImageLoaderUtil;
 import com.jcl.android.net.UrlCat;
+import com.jcl.android.popupwindow.PayTypePopupwindow;
 import com.jcl.android.popupwindow.SharePopupwindow;
 import com.jcl.android.utils.InfoUtils;
 import com.jcl.android.utils.SharePerfUtil;
 import com.jcl.android.utils.Utils;
 import com.jcl.android.view.MyToast;
 
+/**
+ * 货源详情
+ */
 public class DetailFindGoodsFragment extends BaseFragment implements
 		OnClickListener {
 
@@ -48,12 +50,13 @@ public class DetailFindGoodsFragment extends BaseFragment implements
 	private TextView tv_chufadi, tv_mudidi, tv_goods_info, tv_chexing,tv_from,
 			tv_zhuanghuoshijian,tv_songdashijian,tv_baojiashijian,tv_fabushijian, 
 			tv_pay_tel, tv_pay_online, tv_maoyileixing,tv_jj,tv_ispc,tv_saying,
-			tv_zonglicheng, tv_fukuanfangshi,tv_mark,tv_fahuoren,tv_fahuorenxinxi;
+			tv_zonglicheng, tv_fukuanfangshi,tv_mark,tv_fahuoren,tv_fahuorenxinxi, tv_pay_now;
 	private ImageView iv_goods_pic1, iv_goods_pic2,iv_goods_pic3,iv_goods_pic4;
 	private LinearLayout ll_pic;
 	private boolean isChecked;
 	private SharePopupwindow sharePopupwindow;
 	private String telNum,payphone;
+	private PayTypePopupwindow payTypePopupwindow;
 
 	@Override 
 	public void onCreate(Bundle savedInstanceState) {
@@ -92,6 +95,7 @@ public class DetailFindGoodsFragment extends BaseFragment implements
 		tv_mark = (TextView) root.findViewById(R.id.tv_mark);
 		tv_fahuoren = (TextView) root.findViewById(R.id.tv_fahuoren);
 		tv_fahuorenxinxi = (TextView) root.findViewById(R.id.tv_fahuorenxinxi);
+		tv_pay_now = (TextView) root.findViewById(R.id.tv_pay_now);
 		tv_from = (TextView) root.findViewById(R.id.textView1);
 		tv_ispc = (TextView) root.findViewById(R.id.tv_ispc);
 		tv_saying = (TextView) root.findViewById(R.id.tv_saying);
@@ -108,6 +112,7 @@ public class DetailFindGoodsFragment extends BaseFragment implements
 		tv_pay_online.setOnClickListener(this);//在线报价
 		tv_pay_tel.setOnClickListener(this);//电话联系
 		iv_back.setOnClickListener(this);
+		tv_pay_now.setOnClickListener(this); //支付信息费
 	}
 
 	class DetailGoodsCollectRequest {
@@ -231,7 +236,6 @@ public class DetailFindGoodsFragment extends BaseFragment implements
 									telNum = InfoUtils.formatPhone(arg0.getData().getFhlinkmantel());
 									payphone = arg0.getData().getFhlinkmantel();
 								}
-								
 								if (Utils.isEmpty(arg0.getData().getSaying())) {
 									tv_saying.setText("");
 								} else {
@@ -679,6 +683,14 @@ public class DetailFindGoodsFragment extends BaseFragment implements
 			startActivity(intent2);
 			break;
 
+			case R.id.tv_pay_now:
+				if(payTypePopupwindow==null){
+
+				    payTypePopupwindow=new PayTypePopupwindow(DetailFindGoodsFragment.this.getActivity(), DetailFindGoodsFragment.this.getView(), null,
+							goodsId, "empty", payphone, null);
+				}
+				payTypePopupwindow.show();
+				break;
 		default:
 			break;
 		}

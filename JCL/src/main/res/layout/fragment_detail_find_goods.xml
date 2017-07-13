@@ -484,6 +484,16 @@
                     android:background="@drawable/btn_login_selector"
                     android:gravity="center"
                     android:text="在线报价"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h4" />
+                <TextView
+                    android:id="@+id/tv_pay_now"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_red_selector"
+                    android:gravity="center"
+                    android:text="付信息费"
                     android:textColor="@color/white"
                     android:textSize="@dimen/h4" />
             </LinearLayout>

@@ -1,6 +1,7 @@
 package com.jcl.android.wxapi;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -9,6 +10,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.jcl.android.R;
 import com.jcl.android.net.RequestManager;
+import com.jcl.android.utils.NetUtil;
 import com.jcl.android.utils.Utils;
 import com.tencent.mm.sdk.modelpay.PayReq;
 import com.tencent.mm.sdk.openapi.IWXAPI;
@@ -19,6 +21,8 @@ import net.sourceforge.simcpux.MD5;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -42,26 +46,27 @@ public class WXPayUtil {
     public static final String DEVICE_INFO="WEB";
     private IWXAPI msgApi;
     private Context context;
+    private SimpleDateFormat dateFormat;
 
     public WXPayUtil(Context context) {
         this.context = context;
         msgApi = WXAPIFactory.createWXAPI(context, null);
         // 将该app注册到微信
         msgApi.registerApp(APPID);
+        dateFormat=new SimpleDateFormat("yyyyMMddHHmmss");
     }
 
     private static final String TAG = "WXPayUtil";
 
     /**
      * 生成微信支付订单
-     * @param bodyLast
-     * @param out_trade_no
-     * @param total_fee
-     * @param ip
-     * @param detail
-     * @param attach
+     * @param bodyLast 必填，商品描述
+     * @param total_fee 必填，总金额，单位为分
+     * @param detail 可填，商品详情
+     * @param attach 可填，附加数据
      */
-    public void prepay(String bodyLast, String out_trade_no, int total_fee,String ip, String detail, String attach) {
+    public void prepay(String bodyLast, int total_fee, String detail, String attach) {
+        String out_trade_no = dateFormat.format(new Date(System.currentTimeMillis()));
         Map<String, String> params=new HashMap<>();
         params.put("appid", APPID);
         params.put("mch_id", USER_ID);
@@ -70,9 +75,15 @@ public class WXPayUtil {
         params.put("body", context.getString(R.string.app_name)+"-"+bodyLast);
         params.put("out_trade_no", out_trade_no);
         params.put("total_fee", String.valueOf(total_fee));
-        params.put("spbill_create_ip", ip);
+        params.put("spbill_create_ip", NetUtil.getIPAddress(context));
         params.put("notify_url", "http://localhost:8081/hsdata/weixin");
         params.put("trade_type", "APP");
+        if(detail!=null&&!TextUtils.isEmpty(detail)){
+            params.put("detail",detail);
+        }
+        if(attach!=null&&!TextUtils.isEmpty(attach)){
+            params.put("attach",attach);
+        }
         params.put("sign",createSign("UTF-8",params));
         String url=createUrl(params);
         RequestManager.addRequest(new StringRequest(url, new Response.Listener<String>() {
