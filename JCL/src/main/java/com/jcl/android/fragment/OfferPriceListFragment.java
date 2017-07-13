@@ -62,6 +62,8 @@ import com.jcl.android.net.ParamsBuilder;
 import com.jcl.android.net.UrlCat;
 import com.jcl.android.popupwindow.CityPickerPopupwindow;
 import com.jcl.android.popupwindow.DatePickerPopupwindow;
+import com.jcl.android.popupwindow.PayOnlinePopupwindow;
+import com.jcl.android.popupwindow.PayTypePopupwindow;
 import com.jcl.android.utils.LogUtil;
 import com.jcl.android.utils.SharePerfUtil;
 import com.jcl.android.view.MyToast;
@@ -234,7 +236,7 @@ public class OfferPriceListFragment extends BaseFragment implements OnClickListe
 						.findViewById(R.id.tv_info);
 				holder.img_call = (ImageView)convertView.findViewById(R.id.img_call);
 				//添加采用报价的监听事件
-				holder.tv_qiang.setOnClickListener(new MyOnClickListnener(dataList.get(position).get_id(),dataList.get(position).getPrice()));
+				holder.tv_qiang.setOnClickListener(new MyOnClickListnener(dataList.get(position).get_id(), dataList.get(position).getPrice(), dataList.get(position).getPhone()));
 				final String submittype = dataList.get(position).getSubmittype();
 				holder.tv_info.setOnClickListener(new View.OnClickListener() {
 
@@ -334,14 +336,16 @@ public class OfferPriceListFragment extends BaseFragment implements OnClickListe
 	public class MyOnClickListnener implements OnClickListener{
 		String priceid;
 		String price;
-		public  MyOnClickListnener(String priceid,String price){
+		String phone;
+		public  MyOnClickListnener(String priceid, String price, String phone){
 			this.priceid = priceid;
 			this.price = price;
+			this.phone=phone;
 		}
 		@Override
 		public void onClick(View arg0) {
 			
-			showDialog(priceid,price);
+			showDialog(priceid,price, phone);
 			
 		}
 		
@@ -383,7 +387,9 @@ public class OfferPriceListFragment extends BaseFragment implements OnClickListe
 					}
 				}));
 	}
-	protected void showDialog(final String priceid,final String price) {
+	protected void showDialog(final String priceid, String price, String phone) {
+		final PayTypePopupwindow popupwindow=
+				new PayTypePopupwindow(getActivity(), getView(), null, priceid, "", phone, price);
 		  AlertDialog.Builder builder = new Builder(getActivity());
 		  builder.setMessage("1.担保交易支付：运费付款到平台，货物送达后，确认付款，平台支付担保运费付给车主。\n2.运费直接给付:货物送达后货主线下付费给车主。\n3.点击空白处返回。");  
 		  builder.setTitle("请选择支付方式!"); 
@@ -392,7 +398,8 @@ public class OfferPriceListFragment extends BaseFragment implements OnClickListe
 	           public void onClick(DialogInterface dialog, int which) {
 	        	   dialog.dismiss();
 	        	  //调用支付宝支付
-					new PayUtils().pay(getActivity(), mHandler, price,"1",priceid);
+				   popupwindow.show();
+//					new PayUtils().pay(getActivity(), mHandler, price,"1",priceid);
 	           }
 	       });  
 		  builder.setNegativeButton("运费直接给付", new DialogInterface.OnClickListener() {
@@ -404,40 +411,5 @@ public class OfferPriceListFragment extends BaseFragment implements OnClickListe
 	       });  
 		  builder.create().show();
 		}
-	private Handler mHandler = new Handler() {
-		public void handleMessage(Message msg) {
-			switch (msg.what) {
-			case 1://支付宝支付返回
-                PayResult payResult = new PayResult((String) msg.obj);
-				
-				// 支付宝返回此次支付结果及加签，建议对支付宝签名信息拿签约时支付宝提供的公钥做验签
-				String resultInfo = payResult.getResult();
-				
-				String resultStatus = payResult.getResultStatus();
-
-				// 判断resultStatus 为“9000”则代表支付成功，具体状态码代表含义可参考接口文档
-				if (TextUtils.equals(resultStatus, "9000")) {
-					Toast.makeText(getActivity(), "支付成功",
-							Toast.LENGTH_SHORT).show();
-					Intent intent = new Intent();
-	                getActivity().setResult(1, intent); 
-					getActivity().finish();
-				} else {
-					// 判断resultStatus 为非“9000”则代表可能支付失败
-					// “8000”代表支付结果因为支付渠道原因或者系统原因还在等待支付结果确认，最终交易是否成功以服务端异步通知为准（小概率状态）
-					if (TextUtils.equals(resultStatus, "8000")) {
-						Toast.makeText(getActivity(), "支付结果确认中",
-								Toast.LENGTH_SHORT).show();
-
-					} else {
-						// 其他值就可以判断为支付失败，包括用户主动取消支付，或者系统返回的错误
-						Toast.makeText(getActivity(), "支付失败",
-								Toast.LENGTH_SHORT).show();
-
-					}
-				}
-				break;
-			}}};
-
 
 }

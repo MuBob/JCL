@@ -41,7 +41,6 @@ import com.jcl.android.bean.FindGoodsListBean;
 import com.jcl.android.net.GsonRequest;
 import com.jcl.android.net.ParamsBuilder;
 import com.jcl.android.net.UrlCat;
-import com.jcl.android.popupwindow.PayTypePopupwindow;
 import com.jcl.android.view.MyToast;
 
 import java.util.ArrayList;
@@ -603,15 +602,84 @@ public class SettingGoodsOrderFragment extends BaseFragment implements
         String vanorderid;
         String phone;
         String price;
-        PayTypePopupwindow popupWindow;
+        AlertDialog alertDialog;
 
+       private class Data {
+            private String mobile; //收款账户
+
+            public Data(String mobile) {
+                this.mobile = mobile;
+            }
+        }
+        class QuerenzhifuRequest {
+            private String filters;
+            private String type;
+            private String operate;
+            private String data;
+
+            public QuerenzhifuRequest(String data, String operate) {
+                this.data = data;
+                this.operate = operate;
+                this.type = "4101";
+            }
+        }
 
         public QuerenfukuanOnclickListnener( String goodsid,  String vanorderid,  String phone,  String price) {
             this.goodsid = goodsid;
             this.vanorderid = vanorderid;
             this.phone=phone;
             this.price=price;
-            popupWindow=new PayTypePopupwindow(SettingGoodsOrderFragment.this.getActivity(), SettingGoodsOrderFragment.this.getView(), null, goodsid, vanorderid, phone, price);
+            alertDialog=new Builder(getActivity())
+                    .setMessage("确认付款后，钱款将由本平台转账到对方账号，确定继续操作吗？")
+                    .setTitle("提示")
+                    .setCancelable(false)
+                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                            String data = new Gson().toJson(new Data(QuerenfukuanOnclickListnener.this.phone));
+                            String getStr = new Gson().toJson(new QuerenzhifuRequest(data,"A"));
+                            showLD("确认中...");
+                            executeRequest(new GsonRequest<BaseBean>(
+                                    Request.Method.GET,
+                                    UrlCat.getMyPayUrl(getStr),
+                                    BaseBean.class, null, null,
+                                    new Listener<BaseBean>() {
+                                        @Override
+                                        public void onResponse(BaseBean arg0) {
+                                            cancelLD();
+                                            if (arg0 != null) {
+                                                if (TextUtils.equals(
+                                                        arg0.getCode(), "1")) {
+                                                    MyToast.showToast(getActivity(), "转账成功");
+                                                }else if(TextUtils.equals(
+                                                        arg0.getCode(), "2")){
+                                                    MyToast.showToast(getActivity(), "转账出现错误，没有该用户订单");
+                                                }else {
+                                                    MyToast.showToast(getActivity(), "转账异常");
+                                                }
+                                            }else {
+                                                MyToast.showToast(getActivity(), "网络连接异常");
+                                            }
+
+                                        }
+                                    }, new ErrorListener() {
+
+                                @Override
+                                public void onErrorResponse(VolleyError arg0) {
+                                    // TODO Auto-generated method stub
+                                    cancelLD();
+                                }
+                            }));
+                        }
+                    })
+                    .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    })
+                    .create();
         }
 
         @Override
@@ -634,7 +702,7 @@ public class SettingGoodsOrderFragment extends BaseFragment implements
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
-                    popupWindow.show();
+                    alertDialog.show();
                 }
             });
             builder.create().show();

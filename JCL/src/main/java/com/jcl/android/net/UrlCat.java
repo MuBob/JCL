@@ -28,7 +28,9 @@ public class UrlCat {
 			+ "/search?getPageStr=%1$s";
 
 	//支付接口
+	//确认付款接口
 	public static final String URL_MY_PAY=C.BASE_URL+"/submit?postStr=?1$s";
+
 
 	// 注册接口,短信获取验证码接口,个人认证
 	public static String getSubmitPoststrUrl(String postStr) {

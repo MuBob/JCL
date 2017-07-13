@@ -3,11 +3,15 @@ package com.jcl.android.mypay;
 import android.content.Context;
 import android.util.Log;
 
+import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
+import com.jcl.android.bean.BaseBean;
+import com.jcl.android.net.GsonRequest;
 import com.jcl.android.net.RequestManager;
+import com.jcl.android.net.UrlCat;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -72,6 +76,32 @@ public class MyPayUtil {
                 Log.i(TAG, "MyPayUtil.onErrorResponse: error="+volleyError);
             }
         }), context);
+        RequestManager.addRequest(new GsonRequest<BaseBean>(
+                Request.Method.GET,
+                UrlCat.getMyPayUrl(jsonRequest),
+                BaseBean.class, null, null,
+                new Response.Listener<BaseBean>() {
+                    @Override
+                    public void onResponse(BaseBean baseBean) {
+                        Log.i(TAG, "MyPayUtil.onResponse: res="+baseBean);
+                        int code=Integer.parseInt(baseBean.getCode());
+                        String msg=baseBean.getMsg();
+                        if(code==0){
+                            Log.i(TAG, "MyPayUtil.onResponse: 返回异常");
+
+                        }else {
+                            Log.i(TAG, "MyPayUtil.onResponse: 返回成功");
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+
+                    @Override
+                    public void onErrorResponse(VolleyError volleyError) {
+                        Log.i(TAG, "MyPayUtil.onErrorResponse: error="+volleyError);
+                    }
+                }
+        ), this);
     }
 
     private class MyPayPostRequest{

@@ -4,6 +4,19 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
     <Button
+        android:id="@+id/btn_menu_pay_alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="支付宝支付"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
         android:id="@+id/btn_menu_pay_wechat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
