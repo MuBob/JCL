@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.text.Html;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -354,6 +355,7 @@ public class DetailZhuanxianFragment extends BaseFragment implements
 				}));
 	}
 
+	private static final String TAG = "DetailZhuanxianFragment";
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
@@ -433,6 +435,33 @@ public class DetailZhuanxianFragment extends BaseFragment implements
 			break;
 
 		case R.id.tv_pay_tel:
+			String data = new Gson().toJson(new CallRequest.CallRequestData(
+					SharePerfUtil.getMobile(), payphone));
+			String getStr = new Gson()
+					.toJson(new CallRequest(data));
+			executeRequest(new GsonRequest<BaseBean>(Request.Method.GET,
+					UrlCat.getSubmitPoststrUrl(getStr),
+					BaseBean.class,
+					null, null, new Listener<BaseBean>() {
+
+				@Override
+				public void onResponse(BaseBean arg0) {
+					Log.i(TAG, "DetailZhuanxianFragment.onResponse: arg0="+arg0);
+					if (arg0 != null) {
+						if (TextUtils.equals(arg0.getCode(), "1")) {
+							Log.i(TAG, "DetailZhuanxianFragment.onResponse: 推送成功");
+						}
+					}
+
+				}
+			}, new ErrorListener() {
+
+				@Override
+				public void onErrorResponse(VolleyError arg0) {
+					// TODO Auto-generated method stub
+					cancelLD();
+				}
+			}));
 			Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"
 					+ payphone));
 			startActivity(intent);
@@ -450,4 +479,50 @@ public class DetailZhuanxianFragment extends BaseFragment implements
 		}
 
 	}
+
+
+	public static class CallRequest {
+		private String type;
+		private String data;
+//		data:{"mytel":"15264284819","calltel":"15264284817"}
+		public CallRequest(String data) {
+			this.data = data;
+			this.type = "5000";
+		}
+
+		public static class CallRequestData{
+			private String mytel;
+			private String calltel;
+
+			public CallRequestData(String mytel, String calltel) {
+				this.mytel = mytel;
+				this.calltel = calltel;
+			}
+
+			@Override
+			public String toString() {
+				return "CallRequestData{" +
+						"mytel='" + mytel + '\'' +
+						", calltel='" + calltel + '\'' +
+						'}';
+			}
+
+			public String getMytel() {
+				return mytel;
+			}
+
+			public void setMytel(String mytel) {
+				this.mytel = mytel;
+			}
+
+			public String getCalltel() {
+				return calltel;
+			}
+
+			public void setCalltel(String calltel) {
+				this.calltel = calltel;
+			}
+		}
+	}
+
 }

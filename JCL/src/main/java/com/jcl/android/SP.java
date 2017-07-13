@@ -11,6 +11,7 @@ public class SP {
     public static final String SP_ISLOGIN="islogin";
     public static final String SP_LINKMAN="link_name";
     public static final String SP_COMPANY_NAME="conpany_name";
+    public static final String SP_MOBILE="mobile";
     public static final String SP_PERSON_HEAD="person_head";//头像地址
     public static final String SP_INVITECODE="invitecode";//邀请码
     public static final String SP_ISAUTH="isauth";//是否认证

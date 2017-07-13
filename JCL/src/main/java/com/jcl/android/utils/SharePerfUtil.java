@@ -170,22 +170,40 @@ public class SharePerfUtil {
 	public static boolean saveLinkMan(String linkman){
     	return put(SP.SP_LINKMAN, linkman);
     }
-	
-	/**
+
+    /**
      * 获取公司名称
      * @return
      */
     public static String getCompanyName(){
-    	return getString(SP.SP_COMPANY_NAME);
+        return getString(SP.SP_COMPANY_NAME);
     }
-    
+
     /**
      * 保存公司名称
      * @param linkman json字符串
-     * @return boolean 
+     * @return boolean
      */
-	public static boolean saveCompanyName(String companyName){
-    	return put(SP.SP_COMPANY_NAME, companyName);
+    public static boolean saveCompanyName(String companyName){
+        return put(SP.SP_COMPANY_NAME, companyName);
+    }
+
+
+    /**
+     * 获取联系方式
+     * @return
+     */
+    public static String getMobile(){
+        return getString(SP.SP_MOBILE);
+    }
+
+    /**
+     * 保存联系方式
+     * @param mobile json字符串
+     * @return boolean
+     */
+    public static boolean saveMobile(String mobile){
+        return put(SP.SP_MOBILE, mobile);
     }
 	 /**
      * 保存头像地址
@@ -247,7 +265,7 @@ public class SharePerfUtil {
     
     /**
      * 保存 认证标示
-     * @param loginpwd json字符串
+     * @param type json字符串
      * @return boolean 
      */
 	public static boolean saveIsauth(String type){

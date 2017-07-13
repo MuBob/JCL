@@ -172,6 +172,8 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 								SharePerfUtil.saveLoginUserInfo(arg0);
 								SharePerfUtil.saveSubmittype(loginBean
 										.getData().getSubmittype());
+								SharePerfUtil.saveMobile(loginBean
+										.getData().getMobile());
 								SharePerfUtil.saveInvitecode(loginBean
 										.getData().getInvitecode());
 								SharePerfUtil.saveIsauth(loginBean
